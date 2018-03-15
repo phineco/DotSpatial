@@ -154,16 +154,16 @@
     <value>Online Basemap</value>
   </data>
   <data name="None" xml:space="preserve">
-    <value>None</value>
+    <value>无</value>
   </data>
   <data name="Opacity_Box_Text" xml:space="preserve">
-    <value>Opacity: </value>
+    <value>透明度：</value>
   </data>
   <data name="Opacity_Box_ToolTip" xml:space="preserve">
-    <value>Change opacity of the basemap layer.</value>
+    <value>改变地图的透明度</value>
   </data>
   <data name="Panel_Name" xml:space="preserve">
-    <value>Online Basemap</value>
+    <value>加载</value>
   </data>
   <data name="Service_Box_ToolTip" xml:space="preserve">
     <value>Change online basemap service.</value>

@@ -56,8 +56,8 @@ namespace DotSpatial.Plugins.WebMap
         {
             // Add Menu or Ribbon buttons.
             AddServiceDropDown(App.HeaderControl);
-            
-            _optionsAction = new SimpleActionItem("Configure", delegate
+
+            _optionsAction = new SimpleActionItem("配置", delegate
             {
                 var p = CurrentProvider;
                 if (p == null) return;
@@ -78,6 +78,9 @@ namespace DotSpatial.Plugins.WebMap
                 Enabled = false,
             };
             App.HeaderControl.Add(_optionsAction);
+
+            var head = App.HeaderControl;
+            head.Remove(HeaderControl.ApplicationMenuKey);
             AddOpaticyDropDown(App.HeaderControl);
 
             _serviceDropDown.SelectedValueChanged += ServiceSelected;
@@ -252,7 +255,7 @@ namespace DotSpatial.Plugins.WebMap
         private void BwProgressChanged(object sender, ProgressChangedEventArgs e)
         {
             // Do we know what what our progress completion percent is (instead of 50)?
-            App.ProgressHandler.Progress("Loading Basemap ...", e.ProgressPercentage, "Loading Basemap ...");
+            App.ProgressHandler.Progress("地图加载中...", e.ProgressPercentage, "地图加载中...");
         }
        
         private void BwRunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -324,7 +327,7 @@ namespace DotSpatial.Plugins.WebMap
             else if (!App.Map.Projection.Equals(WebMercProj))
             {
                 //get original view extents
-                App.ProgressHandler.Progress(String.Empty, 0, "Reprojecting Map Layers...");
+                App.ProgressHandler.Progress(String.Empty, 0, "重新投影图层...");
                 double[] viewExtentXY = { App.Map.ViewExtents.MinX, App.Map.ViewExtents.MinY, App.Map.ViewExtents.MaxX, App.Map.ViewExtents.MaxY };
                 double[] viewExtentZ = { 0.0, 0.0 };
 
@@ -337,7 +340,7 @@ namespace DotSpatial.Plugins.WebMap
                 //if projection is not WebMercator - reproject all layers:
                 MapFrameProjectionHelper.ReprojectMapFrame(App.Map.MapFrame, WebMercProj.ToEsriString());
 
-                App.ProgressHandler.Progress(String.Empty, 0, "Loading Basemap...");
+                App.ProgressHandler.Progress(String.Empty, 0, "地图加载中...");
             }
 
 

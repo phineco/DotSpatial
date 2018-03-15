@@ -39,111 +39,131 @@
             this.latStatus = new System.Windows.Forms.Label();
             this.lonStatus = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // AcceptButton
             // 
-            this.AcceptButton.Location = new System.Drawing.Point(58, 130);
+            this.AcceptButton.Location = new System.Drawing.Point(58, 154);
             this.AcceptButton.Name = "AcceptButton";
-            this.AcceptButton.Size = new System.Drawing.Size(72, 30);
+            this.AcceptButton.Size = new System.Drawing.Size(72, 28);
             this.AcceptButton.TabIndex = 3;
-            this.AcceptButton.Text = "OK";
+            this.AcceptButton.Text = "确定";
             this.AcceptButton.UseVisualStyleBackColor = true;
             this.AcceptButton.Click += new System.EventHandler(this.AcceptButton_Click);
             // 
             // CancelButton
             // 
             this.CancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.CancelButton.Location = new System.Drawing.Point(136, 130);
+            this.CancelButton.Location = new System.Drawing.Point(136, 154);
             this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(72, 30);
+            this.CancelButton.Size = new System.Drawing.Size(72, 28);
             this.CancelButton.TabIndex = 4;
-            this.CancelButton.Text = "Cancel";
+            this.CancelButton.Text = "取消";
             this.CancelButton.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(48, 43);
+            this.label1.Location = new System.Drawing.Point(48, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 13);
+            this.label1.Size = new System.Drawing.Size(29, 12);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Latitude";
+            this.label1.Text = "纬度";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 88);
+            this.label2.Location = new System.Drawing.Point(48, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 13);
+            this.label2.Size = new System.Drawing.Size(29, 12);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Longitude";
+            this.label2.Text = "经度";
             // 
             // d1
             // 
-            this.d1.Location = new System.Drawing.Point(118, 41);
+            this.d1.Location = new System.Drawing.Point(99, 72);
             this.d1.Name = "d1";
-            this.d1.Size = new System.Drawing.Size(91, 20);
+            this.d1.Size = new System.Drawing.Size(109, 21);
             this.d1.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(210, 41);
+            this.label3.Location = new System.Drawing.Point(210, 72);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(11, 13);
+            this.label3.Size = new System.Drawing.Size(17, 12);
             this.label3.TabIndex = 12;
             this.label3.Text = "°";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(210, 85);
+            this.label10.Location = new System.Drawing.Point(210, 112);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(11, 13);
+            this.label10.Size = new System.Drawing.Size(17, 12);
             this.label10.TabIndex = 20;
             this.label10.Text = "°";
             // 
             // d2
             // 
-            this.d2.Location = new System.Drawing.Point(118, 85);
+            this.d2.Location = new System.Drawing.Point(99, 112);
             this.d2.Name = "d2";
-            this.d2.Size = new System.Drawing.Size(91, 20);
+            this.d2.Size = new System.Drawing.Size(109, 21);
             this.d2.TabIndex = 2;
             // 
             // latStatus
             // 
             this.latStatus.AutoSize = true;
-            this.latStatus.Location = new System.Drawing.Point(28, 64);
+            this.latStatus.Location = new System.Drawing.Point(28, 93);
             this.latStatus.Name = "latStatus";
-            this.latStatus.Size = new System.Drawing.Size(58, 13);
+            this.latStatus.Size = new System.Drawing.Size(65, 12);
             this.latStatus.TabIndex = 24;
             this.latStatus.Text = "latWarning";
             // 
             // lonStatus
             // 
             this.lonStatus.AutoSize = true;
-            this.lonStatus.Location = new System.Drawing.Point(28, 109);
+            this.lonStatus.Location = new System.Drawing.Point(28, 135);
             this.lonStatus.Name = "lonStatus";
-            this.lonStatus.Size = new System.Drawing.Size(67, 13);
+            this.lonStatus.Size = new System.Drawing.Size(71, 12);
             this.lonStatus.TabIndex = 25;
             this.lonStatus.Text = "longWarning";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(50, 10);
+            this.label4.Location = new System.Drawing.Point(48, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(182, 13);
+            this.label4.Size = new System.Drawing.Size(125, 12);
             this.label4.TabIndex = 26;
-            this.label4.Text = "Please enter the desired coordinates:";
+            this.label4.Text = "请输入要定位的经纬度";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(48, 39);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 12);
+            this.label5.TabIndex = 27;
+            this.label5.Text = "坐标系";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(99, 36);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 20);
+            this.comboBox1.TabIndex = 28;
             // 
             // ZoomToCoordinatesDialog
             // 
-            this.AcceptButton = this.AcceptButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(277, 172);
+            this.ClientSize = new System.Drawing.Size(283, 198);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lonStatus);
             this.Controls.Add(this.latStatus);
@@ -160,7 +180,7 @@
             this.Name = "ZoomToCoordinatesDialog";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Zoom to Coordinates";
+            this.Text = "定位";
             this.Load += new System.EventHandler(this.ZoomToCoordinatesDialog_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -180,5 +200,7 @@
         private System.Windows.Forms.Label latStatus;
         private System.Windows.Forms.Label lonStatus;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

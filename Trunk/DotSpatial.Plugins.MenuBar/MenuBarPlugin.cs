@@ -48,7 +48,7 @@ namespace DotSpatial.Plugins.MenuBar
         public override void Activate()
         {
             AddHeaderRootItems();
-            AddMenuItems();
+            AddMenuItemsV2();
 
             Map map = App.Map as Map;
             if (map != null)
@@ -72,7 +72,7 @@ namespace DotSpatial.Plugins.MenuBar
 
         protected void AddHeaderRootItems()
         {
-            App.HeaderControl.Add(new RootItem(FileMenuKey, MessageStrings.File) { SortOrder = -20 });
+            //App.HeaderControl.Add(new RootItem(FileMenuKey, MessageStrings.File) { SortOrder = -20 });
             App.HeaderControl.Add(new RootItem(HomeMenuKey, MessageStrings.Home) { SortOrder = -10 });
         }
 
@@ -87,6 +87,49 @@ namespace DotSpatial.Plugins.MenuBar
         private void AddLayer_Click(object sender, EventArgs e)
         {
             App.Map.AddLayers();
+        }
+
+        private void AddMenuItemsV2()
+        {
+            IHeaderControl header = App.HeaderControl;
+            //header.Add(new SimpleActionItem(FileMenuKey, Msg.File_New, NewProject_Click) { GroupCaption = HeaderControl.ApplicationMenuKey, SortOrder = 5, SmallImage = Resources.document_empty_16x16, LargeImage = Resources.document_empty_32x32, ToolTipText = DotSpatial.Plugins.MenuBar.MessageStrings.FileNewToolTip });
+            //header.Add(new SimpleActionItem(FileMenuKey, Msg.File_Open, OpenProject_Click) { GroupCaption = HeaderControl.ApplicationMenuKey, SortOrder = 10, SmallImage = Resources.folder_16x16, LargeImage = Resources.folder_32x32, ToolTipText = DotSpatial.Plugins.MenuBar.MessageStrings.FileOpenToolTip });
+            //header.Add(new SimpleActionItem(FileMenuKey, Msg.File_Save, SaveProject_Click) { GroupCaption = HeaderControl.ApplicationMenuKey, SortOrder = 15, SmallImage = Resources.disk_16x16, LargeImage = Resources.disk_32x32, ShowInQuickAccessToolbar = Settings.Default.ShowSaveQuickAccessButton });
+            //header.Add(new SimpleActionItem(FileMenuKey, Msg.File_SaveAs, SaveProjectAs_Click) { GroupCaption = HeaderControl.ApplicationMenuKey, SortOrder = 20, SmallImage = Resources.save_as_16x16, LargeImage = Resources.save_as_32x32, ToolTipText = DotSpatial.Plugins.MenuBar.MessageStrings.FileSaveAsToolTip });
+
+            //header.Add(new SimpleActionItem(FileMenuKey, Msg.File_Print, PrintLayout_Click) { GroupCaption = HeaderControl.ApplicationMenuKey, SortOrder = 40, SmallImage = Resources.printer_16x16, LargeImage = Resources.printer_32x32 });
+
+            //header.Add(new SimpleActionItem(FileMenuKey, Msg.File_Reset_Layout, ResetLayout_Click) { GroupCaption = HeaderControl.ApplicationMenuKey, SortOrder = 200, SmallImage = Resources.layout_delete_16x16, LargeImage = Resources.layout_delete_32x32 });
+
+            //header.Add(new SimpleActionItem(FileMenuKey, Msg.File_Exit, Exit_Click) { GroupCaption = HeaderControl.ApplicationMenuKey, SortOrder = 5000, });
+            header.Add(new SimpleActionItem(HomeMenuKey, "打开工程", OpenProject_Click) { GroupCaption = "工程", SmallImage = Resources.folder_16x16, LargeImage = Resources.folder_32x32 });
+            header.Add(new SimpleActionItem(HomeMenuKey, "保存工程", SaveProject_Click) { GroupCaption = "工程", SmallImage = Resources.disk_16x16, LargeImage = Resources.disk_32x32 });
+
+            header.Add(new SimpleActionItem(HomeMenuKey, "平移", PanTool_Click) { GroupCaption = "操作", SmallImage = Resources.hand_16x16, LargeImage = Resources.hand_32x32 });
+            header.Add(new SimpleActionItem(HomeMenuKey, "放大", ZoomIn_Click) { GroupCaption = "操作", SmallImage = Resources.zoom_in_16x16, LargeImage = Resources.zoom_in_32x32 });
+            header.Add(new SimpleActionItem(HomeMenuKey, "缩小", ZoomOut_Click) { GroupCaption = "操作", SmallImage = Resources.zoom_out_16x16, LargeImage = Resources.zoom_out_32x32 });
+            header.Add(new SimpleActionItem(HomeMenuKey, "全图", ZoomToMaxExtents_Click) { GroupCaption = "操作", SmallImage = Resources.zoom_extend_16x16, LargeImage = Resources.zoom_extend_32x32 });
+
+
+            header.Add(new SimpleActionItem(HomeMenuKey, "加载图层", AddLayer_Click) { GroupCaption = "加载", SmallImage = Resources.layer_add_16x16, LargeImage = Resources.layer_add_32x32 });
+            //header.Add(new SimpleActionItem(HomeMenuKey, Msg.Remove_Layer, RemoveLayer_Click) { GroupCaption = Msg.Layers_Group, SmallImage = Resources.layer_remove_16x16, LargeImage = Resources.layer_remove_32x32 });
+
+            header.Add(new SimpleActionItem(HomeMenuKey, "定位", Coordinates_Click) { GroupCaption = "查询", SmallImage = Resources.zoom_coordinate_16x16, LargeImage = Resources.zoom_coordinate_32x32 });
+            header.Add(new SimpleActionItem(HomeMenuKey, "识别", IdentifierTool_Click) { GroupCaption = "查询", SmallImage = Resources.info_rhombus_16x16, LargeImage = Resources.info_rhombus_32x32 });
+
+            //header.Add(new SimpleActionItem(HomeMenuKey, Msg.Save_Layer, null) { GroupCaption = Msg.Layers_Group, SmallImage = Resources.layer_save_16x16, LargeImage = Resources.layer_save_32x32, Enabled = false });
+
+            _ZoomPrevious = new SimpleActionItem(HomeMenuKey, Msg.Zoom_Previous, ZoomPrevious_Click) { GroupCaption = Msg.Zoom_Group, ToolTipText = Msg.Zoom_Previous_Tooltip, SmallImage = Resources.zoom_to_previous_16, LargeImage = Resources.zoom_to_previous, Enabled = false };
+            //header.Add(_ZoomPrevious);
+            _ZoomNext = new SimpleActionItem(HomeMenuKey, Msg.Zoom_Next, ZoomNext_Click) { GroupCaption = Msg.Zoom_Group, ToolTipText = Msg.Zoom_Next_Tooltip, SmallImage = Resources.zoom_to_next_16, LargeImage = Resources.zoom_to_next, Enabled = false };
+            //header.Add(_ZoomNext);
+            _ZoomToLayer = new SimpleActionItem(HomeMenuKey, Msg.Zoom_To_Layer, ZoomToLayer_Click) { GroupCaption = Msg.Zoom_Group, SmallImage = Resources.zoom_layer_16x16, LargeImage = Resources.zoom_layer_32x32, Enabled = false };
+            //header.Add(_ZoomToLayer);
+
+            header.Add(new SimpleActionItem(HomeMenuKey, "选择", SelectionTool_Click) { GroupCaption = "选择", SmallImage = Resources.select_16x16, LargeImage = Resources.select_32x32 });
+
+            header.Add(new SimpleActionItem(HomeMenuKey, "取消选择", DeselectAll_Click) { GroupCaption = "选择", SmallImage = Resources.deselect_16x16, LargeImage = Resources.deselect_32x32 });
+
         }
 
         private void AddMenuItems()
