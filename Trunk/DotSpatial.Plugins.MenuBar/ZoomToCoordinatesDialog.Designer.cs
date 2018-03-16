@@ -68,22 +68,22 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(48, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 12);
+            this.label1.Size = new System.Drawing.Size(11, 12);
             this.label1.TabIndex = 2;
-            this.label1.Text = "纬度";
+            this.label1.Text = "X";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(48, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 12);
+            this.label2.Size = new System.Drawing.Size(11, 12);
             this.label2.TabIndex = 3;
-            this.label2.Text = "经度";
+            this.label2.Text = "Y";
             // 
             // d1
             // 
-            this.d1.Location = new System.Drawing.Point(99, 72);
+            this.d1.Location = new System.Drawing.Point(99, 115);
             this.d1.Name = "d1";
             this.d1.Size = new System.Drawing.Size(109, 21);
             this.d1.TabIndex = 1;
@@ -108,7 +108,7 @@
             // 
             // d2
             // 
-            this.d2.Location = new System.Drawing.Point(99, 112);
+            this.d2.Location = new System.Drawing.Point(99, 75);
             this.d2.Name = "d2";
             this.d2.Size = new System.Drawing.Size(109, 21);
             this.d2.TabIndex = 2;
@@ -116,7 +116,7 @@
             // latStatus
             // 
             this.latStatus.AutoSize = true;
-            this.latStatus.Location = new System.Drawing.Point(28, 93);
+            this.latStatus.Location = new System.Drawing.Point(28, 139);
             this.latStatus.Name = "latStatus";
             this.latStatus.Size = new System.Drawing.Size(65, 12);
             this.latStatus.TabIndex = 24;
@@ -125,7 +125,7 @@
             // lonStatus
             // 
             this.lonStatus.AutoSize = true;
-            this.lonStatus.Location = new System.Drawing.Point(28, 135);
+            this.lonStatus.Location = new System.Drawing.Point(28, 99);
             this.lonStatus.Name = "lonStatus";
             this.lonStatus.Size = new System.Drawing.Size(71, 12);
             this.lonStatus.TabIndex = 25;
@@ -152,6 +152,9 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Xian1980坐标系",
+            "深圳坐标系"});
             this.comboBox1.Location = new System.Drawing.Point(99, 36);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 20);
