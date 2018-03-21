@@ -130,9 +130,10 @@ namespace DotSpatial.Symbology
             Layers = new LayerCollection(this);
             base.LegendText = SymbologyMessageStrings.LayerFrame_Map_Layers;
             ContextMenuItems = new List<SymbologyMenuItem>();
-            ContextMenuItems.Add(new SymbologyMenuItem(SymbologyMessageStrings.LayerFrame_RemoveMapFrame, Remove_Click));
+            //ContextMenuItems.Add(new SymbologyMenuItem(SymbologyMessageStrings.LayerFrame_RemoveMapFrame, Remove_Click));
             ContextMenuItems.Add(new SymbologyMenuItem(SymbologyMessageStrings.LayerFrame_ZoomToMapFrame, ZoomToMapFrame_Click));
-            ContextMenuItems.Add(new SymbologyMenuItem(SymbologyMessageStrings.LayerFrame_CreateGroup, CreateGroup_Click));
+            //ContextMenuItems.Add(new SymbologyMenuItem(SymbologyMessageStrings.LayerFrame_CreateGroup, CreateGroup_Click));
+            //ContextMenuItems.Add(new SymbologyMenuItem("µÿÕº…Ë÷√", MapSetting_Click));
 
             base.LegendSymbolMode = SymbolMode.GroupSymbol;
             LegendType = LegendType.Group;
@@ -144,6 +145,11 @@ namespace DotSpatial.Symbology
         //private void Properties_Click(object sender, EventArgs e)
         //{
         //}
+        private void MapSetting_Click(object sender, EventArgs e)
+        {
+            
+        }
+        
 
         private void CreateGroup_Click(object sender, EventArgs e)
         {

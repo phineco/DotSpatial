@@ -148,20 +148,20 @@
     <value>Create Group</value>
   </data>
   <data name="LayerFrame_Map_Layers" xml:space="preserve">
-    <value>Map Layers</value>
+    <value>图层</value>
   </data>
   <data name="LayerFrame_RemoveMapFrame" xml:space="preserve">
     <value>Remove Map Frame</value>
   </data>
   <data name="LayerFrame_ZoomToMapFrame" xml:space="preserve">
-    <value>Zoom to Map Frame</value>
+    <value>缩放到地图</value>
   </data>
   <data name="RemoveLayer" xml:space="preserve">
-    <value>Remove Layer</value>
+    <value>移除图层</value>
     <comment>RemoveLayer description</comment>
   </data>
   <data name="ZoomToLayer" xml:space="preserve">
-    <value>Zoom to Layer</value>
+    <value>缩放到图层</value>
     <comment>ZoomToLayer description</comment>
   </data>
   <data name="SetDynamicVisibilityScale" xml:space="preserve">
@@ -169,11 +169,11 @@
     <comment>SetDynamicVisibilityScale description</comment>
   </data>
   <data name="ExportData" xml:space="preserve">
-    <value>Export Data</value>
+    <value>导出图层</value>
     <comment>ExportData description</comment>
   </data>
   <data name="Properties" xml:space="preserve">
-    <value>Properties</value>
+    <value>属性表</value>
     <comment>Properties description</comment>
   </data>
   <data name="FeatureLayer_Create_Layer_From_Selected_Features" xml:space="preserve">
@@ -185,11 +185,11 @@
     <comment>Legend Context Menu:  Join Excel file Data Label</comment>
   </data>
   <data name="FeatureLayer_Labeling" xml:space="preserve">
-    <value>Labeling</value>
+    <value>标注</value>
     <comment>Legend Context Menu: Labeling</comment>
   </data>
   <data name="FeatureLayer_Label_Setup" xml:space="preserve">
-    <value>Label Setup</value>
+    <value>标注</value>
     <comment>Legend Context Menu: Label Setup</comment>
   </data>
   <data name="FeatureLayer_Selection" xml:space="preserve">
@@ -201,7 +201,7 @@
     <comment>Legend Context Menu:  Zoom to Selected Features</comment>
   </data>
   <data name="Layer_Properties" xml:space="preserve">
-    <value>Properties</value>
+    <value>图层属性</value>
     <comment>Layer Properties Context Menu Item</comment>
   </data>
   <data name="FeatureLayer_UnselectAll" xml:space="preserve">

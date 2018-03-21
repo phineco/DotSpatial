@@ -136,13 +136,15 @@ namespace DotSpatial.Symbology
                                             new SymbologyMenuItem(SymbologyMessageStrings.RemoveLayer, SymbologyImages.mnuLayerClear,
                                                                   RemoveLayerClick),
                                             new SymbologyMenuItem(SymbologyMessageStrings.ZoomToLayer, SymbologyImages.ZoomInMap,
-                                                                  ZoomToLayerClick),
-                                            new SymbologyMenuItem(SymbologyMessageStrings.SetDynamicVisibilityScale, SymbologyImages.ZoomScale,
-                                                                  SetDynamicVisibility)
+                                                                  ZoomToLayerClick)
+                                           //                       ,
+                                           // new SymbologyMenuItem(SymbologyMessageStrings.SetDynamicVisibilityScale, SymbologyImages.ZoomScale,
+                                           //                       SetDynamicVisibility)
                                         };
-            SymbologyMenuItem mnuData = new SymbologyMenuItem("Data");
-            mnuData.MenuItems.Add(new SymbologyMenuItem(SymbologyMessageStrings.ExportData, SymbologyImages.save, ExportDataClick));
-            base.ContextMenuItems.Add(mnuData);
+            //SymbologyMenuItem mnuData = new SymbologyMenuItem("Data");
+            //mnuData.MenuItems.Add(new SymbologyMenuItem(SymbologyMessageStrings.ExportData, SymbologyImages.save, ExportDataClick));
+            //base.ContextMenuItems.Add(mnuData);
+            base.ContextMenuItems.Add(new SymbologyMenuItem(SymbologyMessageStrings.ExportData, SymbologyImages.save, ExportDataClick));
             base.ContextMenuItems.Add(new SymbologyMenuItem(SymbologyMessageStrings.Properties, SymbologyImages.color_scheme, ShowPropertiesClick));
             base.LegendSymbolMode = SymbolMode.Checkbox;
             LegendType = LegendType.Layer;

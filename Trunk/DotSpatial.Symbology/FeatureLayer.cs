@@ -243,22 +243,26 @@ namespace DotSpatial.Symbology
             DataSet = featureSet;
             LegendText = featureSet.Name;
             _name = featureSet.Name;
-            var label = new SymbologyMenuItem(Msg.FeatureLayer_Labeling);
-            label.MenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_Label_Setup, SymbologyImages.Label, LabelSetupClick));
-            label.MenuItems.Add(new SymbologyMenuItem(Msg.SetDynamicVisibilityScale, SymbologyImages.ZoomScale,
-                                                      LabelExtentsClick));
-            ContextMenuItems.Insert(4, label);
-            var selection = new SymbologyMenuItem(Msg.FeatureLayer_Selection, SymbologyImages.select, null);
-            ContextMenuItems.Insert(5, selection);
-            selection.MenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_Zoom_To_Selected, SymbologyImages.ZoomInMap,
-                                                          SelectionZoomClick));
-            selection.MenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_Create_Layer_From_Selected_Features, SymbologyImages.Copy,
-                                                          SelectionToLayerClick));
-            selection.MenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_SelectAll, SymbologyImages.select_all, SelectAllClick));
-            selection.MenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_UnselectAll, SymbologyImages.deselect_16x16, UnselectAllClick));
+            //var label = new SymbologyMenuItem(Msg.FeatureLayer_Labeling);
+            //label.MenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_Label_Setup, SymbologyImages.Label, LabelSetupClick));
+            //label.MenuItems.Add(new SymbologyMenuItem(Msg.SetDynamicVisibilityScale, SymbologyImages.ZoomScale,
+            //                                          LabelExtentsClick));
+            //ContextMenuItems.Insert(4, label);
+            
+            //БъзЂ
+            ContextMenuItems.Insert(4, new SymbologyMenuItem(Msg.FeatureLayer_Label_Setup, SymbologyImages.Label, LabelSetupClick));
 
-            ContextMenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_Join_Excel_File, SymbologyImages.redbluearrows,
-                                                       JoinExcel));
+            //var selection = new SymbologyMenuItem(Msg.FeatureLayer_Selection, SymbologyImages.select, null);
+            //ContextMenuItems.Insert(5, selection);
+            //selection.MenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_Zoom_To_Selected, SymbologyImages.ZoomInMap,
+            //                                              SelectionZoomClick));
+            //selection.MenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_Create_Layer_From_Selected_Features, SymbologyImages.Copy,
+            //                                              SelectionToLayerClick));
+            //selection.MenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_SelectAll, SymbologyImages.select_all, SelectAllClick));
+            //selection.MenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_UnselectAll, SymbologyImages.deselect_16x16, UnselectAllClick));
+
+            //ContextMenuItems.Add(new SymbologyMenuItem(Msg.FeatureLayer_Join_Excel_File, SymbologyImages.redbluearrows,
+            //                                           JoinExcel));
             if (!featureSet.IndexMode)
             {
                 _editMode = true;

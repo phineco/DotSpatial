@@ -72,7 +72,7 @@ namespace DotSpatial.Plugins.MenuBar
 
         protected void AddHeaderRootItems()
         {
-            //App.HeaderControl.Add(new RootItem(FileMenuKey, MessageStrings.File) { SortOrder = -20 });
+            //App.HeaderControl.Add(new RootItem(FileMenuKey, "文件") { SortOrder = -20 });
             App.HeaderControl.Add(new RootItem(HomeMenuKey, MessageStrings.Home) { SortOrder = -10 });
         }
 

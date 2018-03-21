@@ -66,6 +66,11 @@ namespace DotSpatial.Controls.Header
 
             string assemblyName = Assembly.GetCallingAssembly().FullName;
 
+            //不显示File菜单
+            if(item.Key.Equals(ApplicationMenuKey))
+            {
+                throw new ArgumentException(String.Format("The key \"{0}\" is added by {1}.", item.Key, assemblyName));
+            }
             if (_items.ContainsKey(item.Key))
             {
                 throw new ArgumentException(String.Format("The key \"{0}\" was already added by {1}. The key may only be used by one HeaderItem.", item.Key, assemblyName));

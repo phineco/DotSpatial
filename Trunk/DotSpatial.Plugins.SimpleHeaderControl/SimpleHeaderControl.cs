@@ -4,6 +4,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
+using System;
 using System.ComponentModel.Composition;
 using System.Drawing;
 using System.Windows.Forms;
@@ -15,12 +16,17 @@ namespace DemoMap
     /// Creates a ToolStripContainer that hosts a MenuBarHeaderControl.
     /// </summary>
     [Export(typeof(IHeaderControl))]
-    public class SimpleHeaderControl : MenuBarHeaderControl, IPartImportsSatisfiedNotification
+    public class SimpleHeaderControl : MenuBarHeaderControl, IStatusControl, IPartImportsSatisfiedNotification
     {
         private ToolStripContainer toolStripContainer1;
 
         [Import("Shell", typeof(ContainerControl))]
         private ContainerControl Shell { get; set; }
+
+        public void Add(StatusPanel panel)
+        {
+            throw new NotImplementedException();
+        }
 
         #region IPartImportsSatisfiedNotification Members
 
@@ -52,6 +58,16 @@ namespace DemoMap
             this.toolStripContainer1.PerformLayout();
 
             Initialize(toolStripContainer1);
+        }
+
+        public void Progress(string key, int percent, string message)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(StatusPanel panel)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

@@ -455,7 +455,7 @@
     <value>Edit</value>
   </data>
   <data name="LayoutMenuStripFile" xml:space="preserve">
-    <value>File</value>
+    <value>文件</value>
   </data>
   <data name="LayoutMenuStripNew" xml:space="preserve">
     <value>New</value>
@@ -755,7 +755,7 @@
     <value>There was no selected feature layer in the legend to clarify which features to delete.  Please select a layer or group in the legend.</value>
   </data>
   <data name="MapFrame_Projection" xml:space="preserve">
-    <value>Projection</value>
+    <value>地图设置</value>
   </data>
   <data name="ProjectFile" xml:space="preserve">
     <value>Project File</value>
