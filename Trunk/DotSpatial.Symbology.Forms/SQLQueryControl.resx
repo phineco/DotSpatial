@@ -123,10 +123,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblMax.Location" type="System.Drawing.Point, System.Drawing">
-    <value>268, 217</value>
+    <value>71, 373</value>
   </data>
   <data name="lblMax.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 13</value>
+    <value>13, 13</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblMax.TabIndex" type="System.Int32, mscorlib">
@@ -137,6 +137,9 @@
   </data>
   <data name="lblMax.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
+  </data>
+  <data name="lblMax.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;lblMax.Name" xml:space="preserve">
     <value>lblMax</value>
@@ -154,10 +157,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="lblMin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>268, 197</value>
+    <value>71, 353</value>
   </data>
   <data name="lblMin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 13</value>
+    <value>13, 13</value>
   </data>
   <data name="lblMin.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -167,6 +170,9 @@
   </data>
   <data name="lblMin.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
+  </data>
+  <data name="lblMin.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;lblMin.Name" xml:space="preserve">
     <value>lblMin</value>
@@ -184,16 +190,19 @@
     <value>True</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>211, 217</value>
+    <value>14, 373</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 13</value>
+    <value>70, 17</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Ma&amp;ximum:</value>
+  </data>
+  <data name="label2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -211,16 +220,19 @@
     <value>True</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>211, 197</value>
+    <value>14, 353</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 13</value>
+    <value>67, 17</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Mi&amp;nimum:</value>
+  </data>
+  <data name="label1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -241,7 +253,7 @@
     <value>4, 4</value>
   </data>
   <data name="lblFields.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 13</value>
+    <value>90, 17</value>
   </data>
   <data name="lblFields.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -265,16 +277,19 @@
     <value>True</value>
   </data>
   <data name="lblUniqueValues.Location" type="System.Drawing.Point, System.Drawing">
-    <value>211, 4</value>
+    <value>277, 268</value>
   </data>
   <data name="lblUniqueValues.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 13</value>
+    <value>100, 17</value>
   </data>
   <data name="lblUniqueValues.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="lblUniqueValues.Text" xml:space="preserve">
     <value>Unique Values</value>
+  </data>
+  <data name="lblUniqueValues.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;lblUniqueValues.Name" xml:space="preserve">
     <value>lblUniqueValues</value>
@@ -295,13 +310,16 @@
     <value>4, 248</value>
   </data>
   <data name="lblSelectPrecursor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 13</value>
+    <value>241, 17</value>
   </data>
   <data name="lblSelectPrecursor.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
   <data name="lblSelectPrecursor.Text" xml:space="preserve">
     <value>SELECT * FROM [Attributes] WHERE</value>
+  </data>
+  <data name="lblSelectPrecursor.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;lblSelectPrecursor.Name" xml:space="preserve">
     <value>lblSelectPrecursor</value>
@@ -319,16 +337,19 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="rtbFilterText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 264</value>
+    <value>7, 265</value>
   </data>
   <data name="rtbFilterText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 71</value>
+    <value>0, 0</value>
   </data>
   <data name="rtbFilterText.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
   <data name="rtbFilterText.Text" xml:space="preserve">
     <value />
+  </data>
+  <data name="rtbFilterText.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;rtbFilterText.Name" xml:space="preserve">
     <value>rtbFilterText</value>
@@ -346,7 +367,7 @@
     <value>False</value>
   </data>
   <data name="btnGetUniqueValues.Location" type="System.Drawing.Point, System.Drawing">
-    <value>133, 177</value>
+    <value>203, 322</value>
   </data>
   <data name="btnGetUniqueValues.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 52</value>
@@ -356,6 +377,9 @@
   </data>
   <data name="btnGetUniqueValues.Text" xml:space="preserve">
     <value>Get &amp;Unique Values</value>
+  </data>
+  <data name="btnGetUniqueValues.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnGetUniqueValues.Name" xml:space="preserve">
     <value>btnGetUniqueValues</value>
@@ -370,7 +394,7 @@
     <value>10</value>
   </data>
   <data name="btnNot.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 206</value>
+    <value>155, 351</value>
   </data>
   <data name="btnNot.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 23</value>
@@ -380,6 +404,9 @@
   </data>
   <data name="btnNot.Text" xml:space="preserve">
     <value>Not</value>
+  </data>
+  <data name="btnNot.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnNot.Name" xml:space="preserve">
     <value>btnNot</value>
@@ -394,7 +421,7 @@
     <value>11</value>
   </data>
   <data name="btnParenthasis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 177</value>
+    <value>106, 322</value>
   </data>
   <data name="btnParenthasis.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 23</value>
@@ -404,6 +431,9 @@
   </data>
   <data name="btnParenthasis.Text" xml:space="preserve">
     <value>( )</value>
+  </data>
+  <data name="btnParenthasis.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnParenthasis.Name" xml:space="preserve">
     <value>btnParenthasis</value>
@@ -418,7 +448,7 @@
     <value>12</value>
   </data>
   <data name="btnAsterix.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 177</value>
+    <value>73, 322</value>
   </data>
   <data name="btnAsterix.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 23</value>
@@ -428,6 +458,9 @@
   </data>
   <data name="btnAsterix.Text" xml:space="preserve">
     <value>*</value>
+  </data>
+  <data name="btnAsterix.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnAsterix.Name" xml:space="preserve">
     <value>btnAsterix</value>
@@ -442,7 +475,7 @@
     <value>13</value>
   </data>
   <data name="btnOr.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 206</value>
+    <value>121, 351</value>
   </data>
   <data name="btnOr.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 23</value>
@@ -452,6 +485,9 @@
   </data>
   <data name="btnOr.Text" xml:space="preserve">
     <value>Or</value>
+  </data>
+  <data name="btnOr.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnOr.Name" xml:space="preserve">
     <value>btnOr</value>
@@ -466,7 +502,7 @@
     <value>14</value>
   </data>
   <data name="btnLessThanOrEqual.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 148</value>
+    <value>240, 293</value>
   </data>
   <data name="btnLessThanOrEqual.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 23</value>
@@ -476,6 +512,9 @@
   </data>
   <data name="btnLessThanOrEqual.Text" xml:space="preserve">
     <value>&lt;=</value>
+  </data>
+  <data name="btnLessThanOrEqual.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnLessThanOrEqual.Name" xml:space="preserve">
     <value>btnLessThanOrEqual</value>
@@ -490,7 +529,7 @@
     <value>15</value>
   </data>
   <data name="btnLessThan.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 108</value>
+    <value>350, 380</value>
   </data>
   <data name="btnLessThan.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 23</value>
@@ -500,6 +539,9 @@
   </data>
   <data name="btnLessThan.Text" xml:space="preserve">
     <value>&lt;</value>
+  </data>
+  <data name="btnLessThan.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnLessThan.Name" xml:space="preserve">
     <value>btnLessThan</value>
@@ -514,7 +556,7 @@
     <value>16</value>
   </data>
   <data name="btnAnd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 206</value>
+    <value>73, 351</value>
   </data>
   <data name="btnAnd.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 23</value>
@@ -524,6 +566,9 @@
   </data>
   <data name="btnAnd.Text" xml:space="preserve">
     <value>And</value>
+  </data>
+  <data name="btnAnd.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnAnd.Name" xml:space="preserve">
     <value>btnAnd</value>
@@ -538,7 +583,7 @@
     <value>17</value>
   </data>
   <data name="btnGreaterThanOrEqual.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 148</value>
+    <value>207, 293</value>
   </data>
   <data name="btnGreaterThanOrEqual.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 23</value>
@@ -548,6 +593,9 @@
   </data>
   <data name="btnGreaterThanOrEqual.Text" xml:space="preserve">
     <value>&gt;=</value>
+  </data>
+  <data name="btnGreaterThanOrEqual.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnGreaterThanOrEqual.Name" xml:space="preserve">
     <value>btnGreaterThanOrEqual</value>
@@ -562,7 +610,7 @@
     <value>18</value>
   </data>
   <data name="btnGreaterThan.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 79</value>
+    <value>350, 351</value>
   </data>
   <data name="btnGreaterThan.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 23</value>
@@ -572,6 +620,9 @@
   </data>
   <data name="btnGreaterThan.Text" xml:space="preserve">
     <value>&gt;</value>
+  </data>
+  <data name="btnGreaterThan.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnGreaterThan.Name" xml:space="preserve">
     <value>btnGreaterThan</value>
@@ -586,7 +637,7 @@
     <value>19</value>
   </data>
   <data name="btnLike.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 177</value>
+    <value>141, 322</value>
   </data>
   <data name="btnLike.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 23</value>
@@ -596,6 +647,9 @@
   </data>
   <data name="btnLike.Text" xml:space="preserve">
     <value>Like</value>
+  </data>
+  <data name="btnLike.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnLike.Name" xml:space="preserve">
     <value>btnLike</value>
@@ -610,7 +664,7 @@
     <value>20</value>
   </data>
   <data name="btnNotEqual.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 50</value>
+    <value>350, 322</value>
   </data>
   <data name="btnNotEqual.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 23</value>
@@ -620,6 +674,9 @@
   </data>
   <data name="btnNotEqual.Text" xml:space="preserve">
     <value>&lt;&gt;</value>
+  </data>
+  <data name="btnNotEqual.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnNotEqual.Name" xml:space="preserve">
     <value>btnNotEqual</value>
@@ -634,7 +691,7 @@
     <value>21</value>
   </data>
   <data name="btnEquals.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 21</value>
+    <value>350, 293</value>
   </data>
   <data name="btnEquals.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 23</value>
@@ -644,6 +701,9 @@
   </data>
   <data name="btnEquals.Text" xml:space="preserve">
     <value>=</value>
+  </data>
+  <data name="btnEquals.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnEquals.Name" xml:space="preserve">
     <value>btnEquals</value>
@@ -663,14 +723,20 @@
   <data name="lbxUniqueValues.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="lbxUniqueValues.ItemHeight" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
   <data name="lbxUniqueValues.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 21</value>
+    <value>217, 293</value>
   </data>
   <data name="lbxUniqueValues.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 160</value>
+    <value>67, 148</value>
   </data>
   <data name="lbxUniqueValues.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
+  </data>
+  <data name="lbxUniqueValues.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;lbxUniqueValues.Name" xml:space="preserve">
     <value>lbxUniqueValues</value>
@@ -684,11 +750,14 @@
   <data name="&gt;&gt;lbxUniqueValues.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
+  <data name="lbxFields.ItemHeight" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
   <data name="lbxFields.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 21</value>
   </data>
   <data name="lbxFields.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 121</value>
+    <value>278, 116</value>
   </data>
   <data name="lbxFields.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -706,7 +775,7 @@
     <value>24</value>
   </data>
   <data name="btnNull.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 148</value>
+    <value>73, 293</value>
   </data>
   <data name="btnNull.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 23</value>
@@ -716,6 +785,9 @@
   </data>
   <data name="btnNull.Text" xml:space="preserve">
     <value>Is Null</value>
+  </data>
+  <data name="btnNull.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnNull.Name" xml:space="preserve">
     <value>btnNull</value>
@@ -730,7 +802,7 @@
     <value>1</value>
   </data>
   <data name="btnNotNull.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 148</value>
+    <value>128, 293</value>
   </data>
   <data name="btnNotNull.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 23</value>
@@ -740,6 +812,9 @@
   </data>
   <data name="btnNotNull.Text" xml:space="preserve">
     <value>Is Not Null</value>
+  </data>
+  <data name="btnNotNull.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnNotNull.Name" xml:space="preserve">
     <value>btnNotNull</value>
@@ -757,7 +832,7 @@
     <value>True</value>
   </metadata>
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>325, 338</value>
+    <value>284, 144</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>SQLQueryControl</value>
