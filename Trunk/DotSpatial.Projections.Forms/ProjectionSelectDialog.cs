@@ -83,139 +83,94 @@ namespace DotSpatial.Projections.Forms
             this.panel1.SuspendLayout();
             this.grpType.SuspendLayout();
             this.SuspendLayout();
-            //
+            // 
             // panel1
-            //
-            this.panel1.AccessibleDescription = null;
-            this.panel1.AccessibleName = null;
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.BackgroundImage = null;
+            // 
             this.panel1.Controls.Add(this.btnApply);
             this.panel1.Controls.Add(this.btnCancel);
             this.panel1.Controls.Add(this.cmdOk);
-            this.panel1.Font = null;
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
-            //
+            // 
             // btnApply
-            //
-            this.btnApply.AccessibleDescription = null;
-            this.btnApply.AccessibleName = null;
+            // 
             resources.ApplyResources(this.btnApply, "btnApply");
-            this.btnApply.BackgroundImage = null;
-            this.btnApply.Font = null;
             this.btnApply.Name = "btnApply";
             this.btnApply.UseVisualStyleBackColor = true;
             this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
-            //
+            // 
             // btnCancel
-            //
-            this.btnCancel.AccessibleDescription = null;
-            this.btnCancel.AccessibleName = null;
+            // 
             resources.ApplyResources(this.btnCancel, "btnCancel");
-            this.btnCancel.BackgroundImage = null;
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Font = null;
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            //
+            // 
             // cmdOk
-            //
-            this.cmdOk.AccessibleDescription = null;
-            this.cmdOk.AccessibleName = null;
+            // 
             resources.ApplyResources(this.cmdOk, "cmdOk");
-            this.cmdOk.BackgroundImage = null;
             this.cmdOk.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.cmdOk.Font = null;
             this.cmdOk.Name = "cmdOk";
             this.cmdOk.UseVisualStyleBackColor = true;
             this.cmdOk.Click += new System.EventHandler(this.cmdOk_Click);
-            //
+            // 
             // cmbMajorCategory
-            //
-            this.cmbMajorCategory.AccessibleDescription = null;
-            this.cmbMajorCategory.AccessibleName = null;
+            // 
             resources.ApplyResources(this.cmbMajorCategory, "cmbMajorCategory");
-            this.cmbMajorCategory.BackgroundImage = null;
-            this.cmbMajorCategory.Font = null;
             this.cmbMajorCategory.FormattingEnabled = true;
             this.cmbMajorCategory.Name = "cmbMajorCategory";
             this.cmbMajorCategory.SelectedIndexChanged += new System.EventHandler(this.cmbMajorCategory_SelectedIndexChanged);
-            //
+            // 
             // cmbMinorCategory
-            //
-            this.cmbMinorCategory.AccessibleDescription = null;
-            this.cmbMinorCategory.AccessibleName = null;
+            // 
             resources.ApplyResources(this.cmbMinorCategory, "cmbMinorCategory");
-            this.cmbMinorCategory.BackgroundImage = null;
-            this.cmbMinorCategory.Font = null;
             this.cmbMinorCategory.FormattingEnabled = true;
             this.cmbMinorCategory.Name = "cmbMinorCategory";
             this.cmbMinorCategory.SelectedIndexChanged += new System.EventHandler(this.cmbMinorCategory_SelectedIndexChanged);
-            //
+            // 
             // grpType
-            //
-            this.grpType.AccessibleDescription = null;
-            this.grpType.AccessibleName = null;
+            // 
             resources.ApplyResources(this.grpType, "grpType");
-            this.grpType.BackgroundImage = null;
             this.grpType.Controls.Add(this.radGeographic);
             this.grpType.Controls.Add(this.radProjected);
-            this.grpType.Font = null;
             this.grpType.Name = "grpType";
             this.grpType.TabStop = false;
-            //
+            // 
             // radGeographic
-            //
-            this.radGeographic.AccessibleDescription = null;
-            this.radGeographic.AccessibleName = null;
+            // 
             resources.ApplyResources(this.radGeographic, "radGeographic");
-            this.radGeographic.BackgroundImage = null;
-            this.radGeographic.Font = null;
             this.radGeographic.Name = "radGeographic";
             this.radGeographic.UseVisualStyleBackColor = true;
-            //
+            // 
             // radProjected
-            //
-            this.radProjected.AccessibleDescription = null;
-            this.radProjected.AccessibleName = null;
+            // 
             resources.ApplyResources(this.radProjected, "radProjected");
-            this.radProjected.BackgroundImage = null;
             this.radProjected.Checked = true;
-            this.radProjected.Font = null;
             this.radProjected.Name = "radProjected";
             this.radProjected.TabStop = true;
             this.radProjected.UseVisualStyleBackColor = true;
             this.radProjected.CheckedChanged += new System.EventHandler(this.radProjected_CheckedChanged);
-            //
+            // 
             // button1
-            //
-            this.button1.AccessibleDescription = null;
-            this.button1.AccessibleName = null;
+            // 
             resources.ApplyResources(this.button1, "button1");
-            this.button1.BackgroundImage = null;
-            this.button1.Font = null;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            //
+            // 
             // ProjectionSelectDialog
-            //
+            // 
             this.AcceptButton = this.cmdOk;
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = null;
             this.CancelButton = this.btnCancel;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.grpType);
             this.Controls.Add(this.cmbMinorCategory);
             this.Controls.Add(this.cmbMajorCategory);
             this.Controls.Add(this.panel1);
-            this.Font = null;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.HelpButton = true;
-            this.Icon = null;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ProjectionSelectDialog";
@@ -226,6 +181,7 @@ namespace DotSpatial.Projections.Forms
             this.grpType.ResumeLayout(false);
             this.grpType.PerformLayout();
             this.ResumeLayout(false);
+
         }
 
         #endregion
