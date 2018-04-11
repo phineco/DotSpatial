@@ -126,7 +126,7 @@
     <value>8, 6</value>
   </data>
   <data name="pnlContent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>778, 510</value>
+    <value>778, 507</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pnlContent.TabIndex" type="System.Int32, mscorlib">
@@ -145,19 +145,19 @@
     <value>0</value>
   </data>
   <data name="tabSymbology.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 25</value>
   </data>
   <data name="tabSymbology.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabSymbology.Size" type="System.Drawing.Size, System.Drawing">
-    <value>792, 522</value>
+    <value>792, 519</value>
   </data>
   <data name="tabSymbology.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="tabSymbology.Text" xml:space="preserve">
-    <value>Symbology</value>
+    <value>符号系统</value>
   </data>
   <data name="&gt;&gt;tabSymbology.Name" xml:space="preserve">
     <value>tabSymbology</value>
@@ -178,7 +178,7 @@
     <value>3, 3</value>
   </data>
   <data name="propertyGrid1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 516</value>
+    <value>786, 513</value>
   </data>
   <data name="propertyGrid1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -196,19 +196,19 @@
     <value>0</value>
   </data>
   <data name="tabDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+    <value>4, 25</value>
   </data>
   <data name="tabDetails.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>792, 522</value>
+    <value>792, 519</value>
   </data>
   <data name="tabDetails.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tabDetails.Text" xml:space="preserve">
-    <value>Detailed Property</value>
+    <value>详细属性</value>
   </data>
   <data name="&gt;&gt;tabDetails.Name" xml:space="preserve">
     <value>tabDetails</value>
@@ -262,7 +262,7 @@
     <value>dialogButtons1</value>
   </data>
   <data name="&gt;&gt;dialogButtons1.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.DialogButtons, DotSpatial.Symbology.Forms, Version=0.11.9.6, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.DialogButtons, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;dialogButtons1.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -304,7 +304,7 @@
     <value>800, 582</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Layer Properties</value>
+    <value> 图层属性</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>LayerDialog</value>

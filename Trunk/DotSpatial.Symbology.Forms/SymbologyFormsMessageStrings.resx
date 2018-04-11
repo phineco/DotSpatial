@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ExportFeature_FeaturesAll" xml:space="preserve">
-    <value>All Features</value>
+    <value>所有要素</value>
   </data>
   <data name="ExportFeature_FeaturesExtent" xml:space="preserve">
-    <value>All Features in View Extent</value>
+    <value>视图内要素</value>
   </data>
   <data name="ExportFeature_FeaturesSelected" xml:space="preserve">
-    <value>Selected features</value>
+    <value>仅选择要素</value>
   </data>
   <data name="DoubleBox_DoubleError" xml:space="preserve">
     <value>The value entered could not be correctly parsed into a valid double precision floating point value.</value>
