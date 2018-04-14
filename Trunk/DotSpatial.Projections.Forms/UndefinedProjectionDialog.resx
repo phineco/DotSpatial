@@ -123,14 +123,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 25</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>12, 19</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 17</value>
+    <value>215, 12</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -150,17 +146,15 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblOriginal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="lblOriginal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 73</value>
-  </data>
-  <data name="lblOriginal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>15, 55</value>
   </data>
   <data name="lblOriginal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>488, 59</value>
+    <value>366, 44</value>
   </data>
   <data name="lblOriginal.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -187,13 +181,10 @@
     <value>True</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 143</value>
-  </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>12, 107</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 17</value>
+    <value>71, 12</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -217,13 +208,10 @@
     <value>True</value>
   </data>
   <data name="radLatLong.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 191</value>
-  </data>
-  <data name="radLatLong.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>21, 143</value>
   </data>
   <data name="radLatLong.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 21</value>
+    <value>143, 16</value>
   </data>
   <data name="radLatLong.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -247,13 +235,10 @@
     <value>True</value>
   </data>
   <data name="radSelectedTransform.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 286</value>
-  </data>
-  <data name="radSelectedTransform.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>21, 214</value>
   </data>
   <data name="radSelectedTransform.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 21</value>
+    <value>59, 16</value>
   </data>
   <data name="radSelectedTransform.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -277,13 +262,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="lblSelectedTransform.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 322</value>
-  </data>
-  <data name="lblSelectedTransform.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>35, 242</value>
   </data>
   <data name="lblSelectedTransform.Size" type="System.Drawing.Size, System.Drawing">
-    <value>404, 23</value>
+    <value>303, 17</value>
   </data>
   <data name="lblSelectedTransform.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -304,13 +286,10 @@
     <value>Top, Right</value>
   </data>
   <data name="btnSelect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>463, 322</value>
-  </data>
-  <data name="btnSelect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>347, 242</value>
   </data>
   <data name="btnSelect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 26</value>
+    <value>37, 20</value>
   </data>
   <data name="btnSelect.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -334,13 +313,10 @@
     <value>True</value>
   </data>
   <data name="radMapFrame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 219</value>
-  </data>
-  <data name="radMapFrame.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>21, 164</value>
   </data>
   <data name="radMapFrame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 21</value>
+    <value>143, 16</value>
   </data>
   <data name="radMapFrame.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -364,13 +340,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="lblMapProjection.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 244</value>
-  </data>
-  <data name="lblMapProjection.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>35, 183</value>
   </data>
   <data name="lblMapProjection.Size" type="System.Drawing.Size, System.Drawing">
-    <value>461, 27</value>
+    <value>346, 20</value>
   </data>
   <data name="lblMapProjection.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -397,19 +370,16 @@
     <value>Bottom, Right</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>412, 368</value>
-  </data>
-  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>309, 276</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>75, 21</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
-    <value>OK</value>
+    <value>确 定</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
@@ -427,13 +397,10 @@
     <value>True</value>
   </data>
   <data name="radDoNothing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 162</value>
-  </data>
-  <data name="radDoNothing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>21, 122</value>
   </data>
   <data name="radDoNothing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 21</value>
+    <value>71, 16</value>
   </data>
   <data name="radDoNothing.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -457,13 +424,10 @@
     <value>True</value>
   </data>
   <data name="chkAlways.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 368</value>
-  </data>
-  <data name="chkAlways.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>12, 276</value>
   </data>
   <data name="chkAlways.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 21</value>
+    <value>144, 16</value>
   </data>
   <data name="chkAlways.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -487,10 +451,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>528, 411</value>
+    <value>396, 308</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -687,9 +651,6 @@
         AEAAHwAA/AAAAAAfAAD+AAAgAD8AAP8AAAAAfwAA/4AAAAD/AAD/wAAAAf8AAP/gAAAD/wAA//gAAB//
         AAD//AAAf/8AAP//AAP//wAA///4D///AAD///////8AAP///////wAA
 </value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>无效或丢失投影</value>

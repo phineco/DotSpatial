@@ -136,7 +136,7 @@
     <value>1</value>
   </data>
   <data name="cmdOK.Text" xml:space="preserve">
-    <value>确定</value>
+    <value>确 定</value>
   </data>
   <data name="&gt;&gt;cmdOK.Name" xml:space="preserve">
     <value>cmdOK</value>
@@ -166,7 +166,7 @@
     <value>2</value>
   </data>
   <data name="cmdCancel.Text" xml:space="preserve">
-    <value>取消</value>
+    <value>取 消</value>
   </data>
   <data name="&gt;&gt;cmdCancel.Name" xml:space="preserve">
     <value>cmdCancel</value>
@@ -196,7 +196,7 @@
     <value>3</value>
   </data>
   <data name="cmdApply.Text" xml:space="preserve">
-    <value>应用</value>
+    <value>应 用</value>
   </data>
   <data name="&gt;&gt;cmdApply.Name" xml:space="preserve">
     <value>cmdApply</value>
@@ -274,7 +274,7 @@
     <value>118, 58</value>
   </data>
   <data name="cmbLabelAngleField.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 24</value>
+    <value>141, 20</value>
   </data>
   <data name="cmbLabelAngleField.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -304,7 +304,7 @@
     <value>9, 58</value>
   </data>
   <data name="rbIndividualAngle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 21</value>
+    <value>119, 16</value>
   </data>
   <data name="rbIndividualAngle.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -337,7 +337,7 @@
     <value>9, 29</value>
   </data>
   <data name="rbCommonAngle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 21</value>
+    <value>95, 16</value>
   </data>
   <data name="rbCommonAngle.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -364,7 +364,7 @@
     <value>118, 29</value>
   </data>
   <data name="nudAngle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 22</value>
+    <value>141, 21</value>
   </data>
   <data name="nudAngle.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -394,7 +394,7 @@
     <value>235, 250</value>
   </data>
   <data name="chkPrioritizeLow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 21</value>
+    <value>150, 16</value>
   </data>
   <data name="chkPrioritizeLow.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -427,7 +427,7 @@
     <value>15, 282</value>
   </data>
   <data name="chkPreventCollision.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 21</value>
+    <value>132, 16</value>
   </data>
   <data name="chkPreventCollision.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -454,7 +454,7 @@
     <value>81, 246</value>
   </data>
   <data name="cmbPriorityField.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 24</value>
+    <value>141, 20</value>
   </data>
   <data name="cmbPriorityField.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -484,7 +484,7 @@
     <value>Fill</value>
   </data>
   <data name="lbCategories.ItemHeight" type="System.Int32, mscorlib">
-    <value>16</value>
+    <value>12</value>
   </data>
   <data name="lbCategories.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 31</value>
@@ -640,7 +640,7 @@
     <value>3, 9</value>
   </data>
   <data name="lblSymbolGroups.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 17</value>
+    <value>35, 13</value>
   </data>
   <data name="lblSymbolGroups.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -709,7 +709,7 @@
     <value>20, 0</value>
   </data>
   <data name="chkBorder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 21</value>
+    <value>48, 16</value>
   </data>
   <data name="chkBorder.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -862,7 +862,7 @@
     <value>15, 0</value>
   </data>
   <data name="chkBackgroundColor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 21</value>
+    <value>72, 16</value>
   </data>
   <data name="chkBackgroundColor.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -916,7 +916,7 @@
     <value>194, 42</value>
   </data>
   <data name="lblFontColor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
+    <value>59, 12</value>
   </data>
   <data name="lblFontColor.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -988,7 +988,7 @@
     <value>69, 73</value>
   </data>
   <data name="cmbStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 24</value>
+    <value>115, 20</value>
   </data>
   <data name="cmbStyle.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1015,7 +1015,7 @@
     <value>9, 16</value>
   </data>
   <data name="lblFamily.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 17</value>
+    <value>35, 12</value>
   </data>
   <data name="lblFamily.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1045,7 +1045,7 @@
     <value>6, 76</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 17</value>
+    <value>35, 12</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1120,7 +1120,7 @@
     <value>69, 42</value>
   </data>
   <data name="cmbSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 24</value>
+    <value>115, 20</value>
   </data>
   <data name="cmbSize.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1147,7 +1147,7 @@
     <value>6, 45</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 17</value>
+    <value>35, 12</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1252,7 +1252,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="sqlExpression.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 397</value>
+    <value>363, 400</value>
   </data>
   <data name="sqlExpression.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1270,13 +1270,13 @@
     <value>4</value>
   </data>
   <data name="tabExpression.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
+    <value>4, 22</value>
   </data>
   <data name="tabExpression.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabExpression.Size" type="System.Drawing.Size, System.Drawing">
-    <value>369, 403</value>
+    <value>369, 406</value>
   </data>
   <data name="tabExpression.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1330,7 +1330,7 @@
     <value>12, 249</value>
   </data>
   <data name="lblPriorityField.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 17</value>
+    <value>89, 12</value>
   </data>
   <data name="lblPriorityField.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1351,13 +1351,13 @@
     <value>3</value>
   </data>
   <data name="tabBasic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
+    <value>4, 22</value>
   </data>
   <data name="tabBasic.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabBasic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>369, 403</value>
+    <value>369, 406</value>
   </data>
   <data name="tabBasic.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1402,7 +1402,7 @@
     <value>63, 19</value>
   </data>
   <data name="nudYOffset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 22</value>
+    <value>78, 21</value>
   </data>
   <data name="nudYOffset.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1429,7 +1429,7 @@
     <value>40, 21</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 17</value>
+    <value>17, 12</value>
   </data>
   <data name="label11.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1459,7 +1459,7 @@
     <value>40, 49</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 17</value>
+    <value>17, 12</value>
   </data>
   <data name="label12.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1483,7 +1483,7 @@
     <value>63, 45</value>
   </data>
   <data name="nudXOffset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 22</value>
+    <value>78, 21</value>
   </data>
   <data name="nudXOffset.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1534,7 +1534,7 @@
     <value>11, 171</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 17</value>
+    <value>113, 12</value>
   </data>
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1564,7 +1564,7 @@
     <value>14, 106</value>
   </data>
   <data name="chkHalo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 21</value>
+    <value>78, 16</value>
   </data>
   <data name="chkHalo.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1594,7 +1594,7 @@
     <value>14, 2</value>
   </data>
   <data name="chkShadow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 21</value>
+    <value>126, 16</value>
   </data>
   <data name="chkShadow.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1624,7 +1624,7 @@
     <value>6, 315</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 17</value>
+    <value>161, 12</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1654,7 +1654,7 @@
     <value>6, 286</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 17</value>
+    <value>143, 12</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1684,7 +1684,7 @@
     <value>6, 257</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 17</value>
+    <value>161, 12</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1717,7 +1717,7 @@
     <value>145, 254</value>
   </data>
   <data name="cmbAlignment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 24</value>
+    <value>204, 20</value>
   </data>
   <data name="cmbAlignment.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1738,7 +1738,7 @@
     <value>145, 283</value>
   </data>
   <data name="cmbLabelingMethod.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 24</value>
+    <value>204, 20</value>
   </data>
   <data name="cmbLabelingMethod.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1759,7 +1759,7 @@
     <value>145, 312</value>
   </data>
   <data name="cmbLabelParts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 24</value>
+    <value>204, 20</value>
   </data>
   <data name="cmbLabelParts.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1831,7 +1831,7 @@
     <value>270, 35</value>
   </data>
   <data name="nudShadowOffsetY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 22</value>
+    <value>78, 21</value>
   </data>
   <data name="nudShadowOffsetY.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1858,7 +1858,7 @@
     <value>247, 39</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 17</value>
+    <value>17, 12</value>
   </data>
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1888,7 +1888,7 @@
     <value>247, 65</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 17</value>
+    <value>17, 12</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1918,7 +1918,7 @@
     <value>247, 16</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 17</value>
+    <value>89, 12</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1942,7 +1942,7 @@
     <value>270, 61</value>
   </data>
   <data name="nudShadowOffsetX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 22</value>
+    <value>78, 21</value>
   </data>
   <data name="nudShadowOffsetX.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1993,7 +1993,7 @@
     <value>10, 16</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 17</value>
+    <value>83, 12</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2062,10 +2062,10 @@
     <value>12</value>
   </data>
   <data name="tabAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
+    <value>4, 22</value>
   </data>
   <data name="tabAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>369, 403</value>
+    <value>369, 406</value>
   </data>
   <data name="tabAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2095,7 +2095,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="sqlMembers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 397</value>
+    <value>363, 400</value>
   </data>
   <data name="sqlMembers.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2113,13 +2113,13 @@
     <value>0</value>
   </data>
   <data name="tabMembers.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
+    <value>4, 22</value>
   </data>
   <data name="tabMembers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabMembers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>369, 403</value>
+    <value>369, 406</value>
   </data>
   <data name="tabMembers.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>

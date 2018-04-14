@@ -123,20 +123,17 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 9</value>
-  </data>
-  <data name="btnApply.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>171, 7</value>
   </data>
   <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>75, 21</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="btnApply.Text" xml:space="preserve">
-    <value>应用</value>
+    <value>应 用</value>
   </data>
   <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
     <value>btnApply</value>
@@ -154,19 +151,16 @@
     <value>Bottom, Right</value>
   </data>
   <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 9</value>
-  </data>
-  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>90, 7</value>
   </data>
   <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>75, 21</value>
   </data>
   <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="btnCancel.Text" xml:space="preserve">
-    <value>取消</value>
+    <value>取 消</value>
   </data>
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
@@ -184,19 +178,16 @@
     <value>Bottom, Right</value>
   </data>
   <data name="cmdOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
-  </data>
-  <data name="cmdOk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>9, 7</value>
   </data>
   <data name="cmdOk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>75, 21</value>
   </data>
   <data name="cmdOk.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="cmdOk.Text" xml:space="preserve">
-    <value>确定</value>
+    <value>确 定</value>
   </data>
   <data name="&gt;&gt;cmdOk.Name" xml:space="preserve">
     <value>cmdOk</value>
@@ -214,13 +205,10 @@
     <value>Bottom</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 247</value>
-  </data>
-  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>0, 185</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>344, 52</value>
+    <value>258, 39</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -241,13 +229,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="cmbMajorCategory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 133</value>
-  </data>
-  <data name="cmbMajorCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>7, 100</value>
   </data>
   <data name="cmbMajorCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>321, 24</value>
+    <value>242, 20</value>
   </data>
   <data name="cmbMajorCategory.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -268,13 +253,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="cmbMinorCategory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 166</value>
-  </data>
-  <data name="cmbMinorCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>7, 124</value>
   </data>
   <data name="cmbMinorCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>323, 24</value>
+    <value>243, 20</value>
   </data>
   <data name="cmbMinorCategory.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -298,13 +280,10 @@
     <value>True</value>
   </data>
   <data name="radGeographic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 54</value>
-  </data>
-  <data name="radGeographic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>24, 40</value>
   </data>
   <data name="radGeographic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 21</value>
+    <value>83, 16</value>
   </data>
   <data name="radGeographic.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -328,13 +307,10 @@
     <value>True</value>
   </data>
   <data name="radProjected.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 26</value>
-  </data>
-  <data name="radProjected.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>24, 20</value>
   </data>
   <data name="radProjected.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 21</value>
+    <value>83, 16</value>
   </data>
   <data name="radProjected.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -355,16 +331,10 @@
     <value>1</value>
   </data>
   <data name="grpType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 18</value>
-  </data>
-  <data name="grpType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="grpType.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>12, 14</value>
   </data>
   <data name="grpType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>315, 91</value>
+    <value>236, 68</value>
   </data>
   <data name="grpType.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -388,13 +358,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 199</value>
-  </data>
-  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 149</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>325, 34</value>
+    <value>244, 26</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -418,13 +385,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>344, 299</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>258, 224</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>
