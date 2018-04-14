@@ -707,7 +707,7 @@
     <value>Input</value>
   </data>
   <data name="MapLayers" xml:space="preserve">
-    <value>Map Layers</value>
+    <value>地图图层</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Output</value>
