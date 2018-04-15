@@ -64,77 +64,64 @@ namespace DotSpatial.Symbology.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            ComponentResourceManager resources = new ComponentResourceManager(typeof(AngleControl));
-            this._lblText = new Label();
-            this._nudAngle = new NumericUpDown();
-            this._anglePicker1 = new AnglePicker();
-            ((ISupportInitialize)(this._nudAngle)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AngleControl));
+            this._lblText = new System.Windows.Forms.Label();
+            this._nudAngle = new System.Windows.Forms.NumericUpDown();
+            this._anglePicker1 = new DotSpatial.Symbology.Forms.AnglePicker();
+            ((System.ComponentModel.ISupportInitialize)(this._nudAngle)).BeginInit();
             this.SuspendLayout();
-            //
-            // lblText
-            //
-            this._lblText.AccessibleDescription = null;
-            this._lblText.AccessibleName = null;
+            // 
+            // _lblText
+            // 
             resources.ApplyResources(this._lblText, "_lblText");
-            this._lblText.Font = null;
             this._lblText.Name = "_lblText";
-            //
-            // nudAngle
-            //
-            this._nudAngle.AccessibleDescription = null;
-            this._nudAngle.AccessibleName = null;
+            // 
+            // _nudAngle
+            // 
             resources.ApplyResources(this._nudAngle, "_nudAngle");
             this._nudAngle.Maximum = new decimal(new int[] {
-                                                               360,
-                                                               0,
-                                                               0,
-                                                               0});
+            360,
+            0,
+            0,
+            0});
             this._nudAngle.Minimum = new decimal(new int[] {
-                                                               -360,
-                                                               0,
-                                                               0,
-                                                               -2147483648});
+            -360,
+            0,
+            0,
+            -2147483648});
             this._nudAngle.Name = "_nudAngle";
-            this._nudAngle.ValueChanged += new EventHandler(this.nudAngle_ValueChanged);
-            //
-            // anglePicker1
-            //
-            this._anglePicker1.AccessibleDescription = null;
-            this._anglePicker1.AccessibleName = null;
+            this._nudAngle.ValueChanged += new System.EventHandler(this.nudAngle_ValueChanged);
+            // 
+            // _anglePicker1
+            // 
             resources.ApplyResources(this._anglePicker1, "_anglePicker1");
             this._anglePicker1.Angle = 0;
-            this._anglePicker1.BackgroundImage = null;
-            //this._anglePicker1.BorderStyle = BorderStyle.None;
-            this._anglePicker1.CircleBorderColor = Color.LightGray;
-            //this._anglePicker1.CircleBorderStyle = BorderStyle.Fixed3D;
-            this._anglePicker1.CircleFillColor = Color.LightGray;
+            this._anglePicker1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this._anglePicker1.CircleBorderColor = System.Drawing.Color.LightGray;
+            this._anglePicker1.CircleBorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this._anglePicker1.CircleFillColor = System.Drawing.Color.LightGray;
             this._anglePicker1.Clockwise = false;
-            this._anglePicker1.Font = null;
-            this._anglePicker1.KnobColor = Color.Green;
+            this._anglePicker1.KnobColor = System.Drawing.Color.Green;
             this._anglePicker1.KnobVisible = true;
             this._anglePicker1.Name = "_anglePicker1";
-            this._anglePicker1.PieFillColor = Color.SteelBlue;
+            this._anglePicker1.PieFillColor = System.Drawing.Color.SteelBlue;
             this._anglePicker1.Snap = 3;
             this._anglePicker1.StartAngle = 0;
-            this._anglePicker1.TextAlignment = ContentAlignment.BottomCenter;
-            this._anglePicker1.AngleChanged += new EventHandler(this.anglePicker1_AngleChanged);
-            //
+            this._anglePicker1.TextAlignment = System.Drawing.ContentAlignment.BottomCenter;
+            this._anglePicker1.AngleChanged += new System.EventHandler(this.anglePicker1_AngleChanged);
+            // 
             // AngleControl
-            //
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
-            resources.ApplyResources(this, "$this");
-
-            this.BackColor = SystemColors.Control;
-            this.BackgroundImage = null;
+            // 
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this._nudAngle);
             this.Controls.Add(this._anglePicker1);
             this.Controls.Add(this._lblText);
-            this.Font = null;
             this.Name = "AngleControl";
-            ((ISupportInitialize)(this._nudAngle)).EndInit();
+            resources.ApplyResources(this, "$this");
+            ((System.ComponentModel.ISupportInitialize)(this._nudAngle)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

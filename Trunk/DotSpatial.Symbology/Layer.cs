@@ -304,7 +304,7 @@ namespace DotSpatial.Symbology
         /// This value represents the geographic width where that happens.
         /// </summary>
         [Serialize("DynamicVisibilityWidth")]
-        [Category("Behavior"), Description("Dynamic visibility represents layers that only appear when the zoom scale is closer (or further) from a set scale.  This value represents the geographic width where the change takes place.")]
+        [Category("Behavior"), DisplayName("可见宽度"), Description("Dynamic visibility represents layers that only appear when the zoom scale is closer (or further) from a set scale.  This value represents the geographic width where the change takes place.")]
         public double DynamicVisibilityWidth
         {
             get { return _dynamicVisibilityWidth; }
@@ -316,7 +316,7 @@ namespace DotSpatial.Symbology
         /// visibility width or only when further away from the dynamic visibility width
         /// </summary>
         [Serialize("DynamicVisibilityMode")]
-        [Category("Behavior"), Description("This controls whether the layer is visible when zoomed in closer than the dynamic visiblity width or only when further away from the dynamic visibility width")]
+        [Category("Behavior"), DisplayName("可见模式"), Description("This controls whether the layer is visible when zoomed in closer than the dynamic visiblity width or only when further away from the dynamic visibility width")]
         public DynamicVisibilityMode DynamicVisibilityMode
         {
             get { return _dynamicVisibilityMode; }
@@ -374,7 +374,7 @@ namespace DotSpatial.Symbology
         /// envelope to control visibility.
         /// </summary>
         [Serialize("UseDynamicVisibility")]
-        [Category("Behavior"), Description("Gets or sets a boolean indicating whether to allow the dynamic visibility envelope to control visibility.")]
+        [Category("Behavior"), DisplayName("是否可见"), Description("Gets or sets a boolean indicating whether to allow the dynamic visibility envelope to control visibility.")]
         public bool UseDynamicVisibility
         {
             get { return _useDynamicVisibility; }
@@ -401,7 +401,7 @@ namespace DotSpatial.Symbology
 
         /// <inheritdoc />
         [Serialize("IsVisible")]
-        [Category("Behavior"), Description("Gets or sets a boolean indicating whether this layer is visible in the map.")]
+        [Category("Behavior"), DisplayName("是否可见"), Description("Gets or sets a boolean indicating whether this layer is visible in the map.")]
         public override bool IsVisible
         {
             get
@@ -817,7 +817,7 @@ namespace DotSpatial.Symbology
         /// Gets the or sets the projection information for the dataset of this layer.
         /// This only defines the projection information and does not reproject the dataset or the layer.
         /// </summary>
-        [Category("DataSet Properties"), Description("The geographic projection that this raster is using.")]
+        [Category("要素集属性"), DisplayName("投影坐标"), Description("The geographic projection that this raster is using.")]
         public ProjectionInfo Projection
         {
             get
@@ -841,7 +841,7 @@ namespace DotSpatial.Symbology
         /// EsriString format. Setting the Projection string only defines projection information.
         /// Call the Reproject() method to actually reproject the dataset and layer.
         /// </summary>
-        [Category("DataSet Properties"), Description("The geographic projection that this raster is using.")]
+        [Category("要素集属性"), DisplayName("中央经线"), Description("The geographic projection that this raster is using.")]
         public string ProjectionString
         {
             get
