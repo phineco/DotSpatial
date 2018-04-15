@@ -23,8 +23,15 @@ namespace DotSpatial.Plugins.MenuBar
         public ZoomToCoordinatesDialog()
         {
             InitializeComponent();
-            lonStatus.Text = "";
-            latStatus.Text = "";
+            lonStatus1.Text = "";
+            latStatus1.Text = "";
+
+            lonStatus2.Text = "";
+            latStatus2.Text = "";
+
+            lonStatus3.Text = "";
+            latStatus3.Text = "";
+
             lat = new double[3];
             lon = new double[3];
         }
@@ -47,13 +54,69 @@ namespace DotSpatial.Plugins.MenuBar
 
         private bool checkCoordinates()
         {
-            bool latCheck = parseCoordinates(lat, d1.Text.ToString());
-            bool lonCheck = parseCoordinates(lon, d2.Text.ToString());
+            //tabControl1
+            int index = tabControl1.SelectedIndex;
+            string strDJ = "";
+            string strBW = "";
+            switch(index)
+            {
+                case 0:
+                    strDJ = tbDJ1.Text.ToString();
+                    strBW = tbBW1.Text.ToString();
+                    break;
+                case 1:
+                    strDJ = tbDJ2.Text.ToString();
+                    strBW = tbBW2.Text.ToString();
+                    break;
+                case 2:
+                    strDJ = tbDJ3.Text.ToString();
+                    strBW = tbBW3.Text.ToString();
+                    break;
+                default:
+                    break;
+            }
 
-            if (!latCheck) { latStatus.Text = "Invalid Latitude (Valid example: \"41.1939 N\")"; }
-            else { latStatus.Text = ""; }
-            if (!lonCheck) { lonStatus.Text = "Invalid Longitude (Valid example: \"19.4908 E\")"; }
-            else { latStatus.Text = "";}
+            bool lonCheck = parseCoordinates(lon, strDJ);
+            bool latCheck = parseCoordinates(lat, strBW);
+
+
+            string lonstatus = "";
+            string latstatus = "";
+
+            if (!lonCheck) { lonstatus = "Invalid Longitude (Valid example: \"19.4908 E\")"; }
+            else { lonstatus = ""; }
+
+            if (!latCheck) { latstatus = "Invalid Latitude (Valid example: \"41.1939 N\")"; }
+            else { latstatus = ""; }
+
+            switch (index)
+            {
+                case 0:
+                    lonStatus1.Text = lonstatus;
+                    latStatus1.Text = latstatus;
+                    break;
+                case 1:
+                    lonStatus2.Text = lonstatus;
+                    latStatus2.Text = latstatus;
+                    break;
+                case 2:
+                    lonStatus3.Text = lonstatus;
+                    latStatus3.Text = latstatus;
+                    break;
+                default:
+                    break;
+            }
+
+            //bool latCheck = parseCoordinates(lat, d1.Text.ToString());
+            //bool lonCheck = parseCoordinates(lon, d2.Text.ToString());
+
+            //if (!latCheck) { latStatus.Text = "Invalid Latitude (Valid example: \"41.1939 N\")"; }
+            //else { latStatus.Text = ""; }
+            //if (!lonCheck) { lonStatus.Text = "Invalid Longitude (Valid example: \"19.4908 E\")"; }
+            //else { latStatus.Text = "";}
+
+
+
 
             return latCheck && lonCheck;
         }
@@ -112,6 +175,11 @@ namespace DotSpatial.Plugins.MenuBar
             if (values[0] < 0) { coor *= -1; }
 
             return coor;
+        }
+
+        private void tbXian_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
