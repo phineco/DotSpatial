@@ -68,144 +68,112 @@ namespace DotSpatial.Symbology.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            ComponentResourceManager resources = new ComponentResourceManager(typeof(OutlineControl));
-            this.grpOutline = new GroupBox();
-            this.btnEditOutline = new Button();
-            this.cbOutlineColor = new ColorButton();
-            this.sldOutlineOpacity = new RampSlider();
-            this.label2 = new Label();
-            this.dbxOutlineWidth = new DoubleBox();
-            this.chkUseOutline = new CheckBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OutlineControl));
+            this.grpOutline = new System.Windows.Forms.GroupBox();
+            this.btnEditOutline = new System.Windows.Forms.Button();
+            this.cbOutlineColor = new DotSpatial.Symbology.Forms.ColorButton();
+            this.sldOutlineOpacity = new DotSpatial.Symbology.Forms.RampSlider();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dbxOutlineWidth = new DotSpatial.Symbology.Forms.DoubleBox();
+            this.chkUseOutline = new System.Windows.Forms.CheckBox();
             this.grpOutline.SuspendLayout();
             this.SuspendLayout();
-            //
+            // 
             // grpOutline
-            //
-            this.grpOutline.AccessibleDescription = null;
-            this.grpOutline.AccessibleName = null;
+            // 
             resources.ApplyResources(this.grpOutline, "grpOutline");
-            this.grpOutline.BackgroundImage = null;
             this.grpOutline.Controls.Add(this.btnEditOutline);
             this.grpOutline.Controls.Add(this.cbOutlineColor);
             this.grpOutline.Controls.Add(this.sldOutlineOpacity);
             this.grpOutline.Controls.Add(this.label2);
             this.grpOutline.Controls.Add(this.dbxOutlineWidth);
             this.grpOutline.Controls.Add(this.chkUseOutline);
-            this.grpOutline.Font = null;
             this.grpOutline.Name = "grpOutline";
             this.grpOutline.TabStop = false;
-            //
+            // 
             // btnEditOutline
-            //
-            this.btnEditOutline.AccessibleDescription = null;
-            this.btnEditOutline.AccessibleName = null;
+            // 
             resources.ApplyResources(this.btnEditOutline, "btnEditOutline");
-            this.btnEditOutline.BackgroundImage = null;
-            this.btnEditOutline.Font = null;
             this.btnEditOutline.Name = "btnEditOutline";
             this.btnEditOutline.UseVisualStyleBackColor = true;
-            this.btnEditOutline.Click += new EventHandler(this.btnEditOutline_Click);
-            //
+            this.btnEditOutline.Click += new System.EventHandler(this.btnEditOutline_Click);
+            // 
             // cbOutlineColor
-            //
-            this.cbOutlineColor.AccessibleDescription = null;
-            this.cbOutlineColor.AccessibleName = null;
+            // 
             resources.ApplyResources(this.cbOutlineColor, "cbOutlineColor");
-            this.cbOutlineColor.BackgroundImage = null;
             this.cbOutlineColor.BevelRadius = 4;
-            this.cbOutlineColor.Color = Color.Blue;
-            this.cbOutlineColor.Font = null;
+            this.cbOutlineColor.Color = System.Drawing.Color.Blue;
             this.cbOutlineColor.LaunchDialogOnClick = true;
             this.cbOutlineColor.Name = "cbOutlineColor";
             this.cbOutlineColor.RoundingRadius = 10;
-            this.cbOutlineColor.ColorChanged += new EventHandler(this.cbOutlineColor_ColorChanged);
-            //
+            this.cbOutlineColor.ColorChanged += new System.EventHandler(this.cbOutlineColor_ColorChanged);
+            // 
             // sldOutlineOpacity
-            //
-            this.sldOutlineOpacity.AccessibleDescription = null;
-            this.sldOutlineOpacity.AccessibleName = null;
+            // 
             resources.ApplyResources(this.sldOutlineOpacity, "sldOutlineOpacity");
-            this.sldOutlineOpacity.BackgroundImage = null;
             this.sldOutlineOpacity.ColorButton = null;
             this.sldOutlineOpacity.FlipRamp = false;
             this.sldOutlineOpacity.FlipText = false;
-            this.sldOutlineOpacity.Font = null;
             this.sldOutlineOpacity.InvertRamp = false;
-            this.sldOutlineOpacity.Maximum = 1;
-            this.sldOutlineOpacity.MaximumColor = Color.CornflowerBlue;
-            this.sldOutlineOpacity.Minimum = 0;
-            this.sldOutlineOpacity.MinimumColor = Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.sldOutlineOpacity.Maximum = 1D;
+            this.sldOutlineOpacity.MaximumColor = System.Drawing.Color.CornflowerBlue;
+            this.sldOutlineOpacity.Minimum = 0D;
+            this.sldOutlineOpacity.MinimumColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.sldOutlineOpacity.Name = "sldOutlineOpacity";
             this.sldOutlineOpacity.NumberFormat = null;
-            this.sldOutlineOpacity.Orientation = Orientation.Horizontal;
+            this.sldOutlineOpacity.Orientation = System.Windows.Forms.Orientation.Horizontal;
             this.sldOutlineOpacity.RampRadius = 8F;
             this.sldOutlineOpacity.RampText = "Opacity";
-            this.sldOutlineOpacity.RampTextAlignment = ContentAlignment.BottomCenter;
+            this.sldOutlineOpacity.RampTextAlignment = System.Drawing.ContentAlignment.BottomCenter;
             this.sldOutlineOpacity.RampTextBehindRamp = true;
-            this.sldOutlineOpacity.RampTextColor = Color.Black;
-            this.sldOutlineOpacity.RampTextFont = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(0)));
+            this.sldOutlineOpacity.RampTextColor = System.Drawing.Color.Black;
+            this.sldOutlineOpacity.RampTextFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sldOutlineOpacity.ShowMaximum = true;
             this.sldOutlineOpacity.ShowMinimum = true;
             this.sldOutlineOpacity.ShowTicks = true;
             this.sldOutlineOpacity.ShowValue = false;
-            this.sldOutlineOpacity.SliderColor = Color.SteelBlue;
+            this.sldOutlineOpacity.SliderColor = System.Drawing.Color.SteelBlue;
             this.sldOutlineOpacity.SliderRadius = 4F;
-            this.sldOutlineOpacity.TickColor = Color.DarkGray;
+            this.sldOutlineOpacity.TickColor = System.Drawing.Color.DarkGray;
             this.sldOutlineOpacity.TickSpacing = 5F;
-            this.sldOutlineOpacity.Value = 0;
-            this.sldOutlineOpacity.ValueChanged += new EventHandler(this.sldOutlineOpacity_ValueChanged);
-            //
+            this.sldOutlineOpacity.Value = 0D;
+            this.sldOutlineOpacity.ValueChanged += new System.EventHandler(this.sldOutlineOpacity_ValueChanged);
+            // 
             // label2
-            //
-            this.label2.AccessibleDescription = null;
-            this.label2.AccessibleName = null;
+            // 
             resources.ApplyResources(this.label2, "label2");
-            this.label2.Font = null;
             this.label2.Name = "label2";
-            //
+            // 
             // dbxOutlineWidth
-            //
-            this.dbxOutlineWidth.AccessibleDescription = null;
-            this.dbxOutlineWidth.AccessibleName = null;
+            // 
             resources.ApplyResources(this.dbxOutlineWidth, "dbxOutlineWidth");
-            this.dbxOutlineWidth.BackColorInvalid = Color.Salmon;
-            this.dbxOutlineWidth.BackColorRegular = Color.Empty;
-            this.dbxOutlineWidth.BackgroundImage = null;
-            this.dbxOutlineWidth.Caption = "Width:";
-            this.dbxOutlineWidth.Font = null;
+            this.dbxOutlineWidth.BackColorInvalid = System.Drawing.Color.Salmon;
+            this.dbxOutlineWidth.BackColorRegular = System.Drawing.Color.Empty;
             this.dbxOutlineWidth.InvalidHelp = "The value entered could not be correctly parsed into a valid double precision flo" +
-                                               "ating point value.";
+    "ating point value.";
             this.dbxOutlineWidth.IsValid = true;
             this.dbxOutlineWidth.Name = "dbxOutlineWidth";
             this.dbxOutlineWidth.NumberFormat = null;
             this.dbxOutlineWidth.RegularHelp = "Enter a double precision floating point value.";
-            this.dbxOutlineWidth.Value = 0;
-            this.dbxOutlineWidth.TextChanged += new EventHandler(this.dbxOutlineWidth_TextChanged);
-            //
+            this.dbxOutlineWidth.Value = 0D;
+            this.dbxOutlineWidth.TextChanged += new System.EventHandler(this.dbxOutlineWidth_TextChanged);
+            // 
             // chkUseOutline
-            //
-            this.chkUseOutline.AccessibleDescription = null;
-            this.chkUseOutline.AccessibleName = null;
+            // 
             resources.ApplyResources(this.chkUseOutline, "chkUseOutline");
-            this.chkUseOutline.BackgroundImage = null;
-            this.chkUseOutline.Font = null;
             this.chkUseOutline.Name = "chkUseOutline";
             this.chkUseOutline.UseVisualStyleBackColor = true;
-            this.chkUseOutline.CheckedChanged += new EventHandler(this.chkUseOutline_CheckedChanged);
-            //
+            this.chkUseOutline.CheckedChanged += new System.EventHandler(this.chkUseOutline_CheckedChanged);
+            // 
             // OutlineControl
-            //
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
+            // 
             resources.ApplyResources(this, "$this");
-
-            this.BackgroundImage = null;
             this.Controls.Add(this.grpOutline);
-            this.Font = null;
             this.Name = "OutlineControl";
             this.grpOutline.ResumeLayout(false);
             this.grpOutline.PerformLayout();
             this.ResumeLayout(false);
+
         }
 
         #endregion

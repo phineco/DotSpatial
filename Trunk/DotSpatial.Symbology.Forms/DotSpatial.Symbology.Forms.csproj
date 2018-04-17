@@ -447,6 +447,9 @@
     <EmbeddedResource Include="JoinDialog.zh-CN.resx">
       <DependentUpon>JoinDialog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OutlineControl.en-US.resx">
+      <DependentUpon>OutlineControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

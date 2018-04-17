@@ -137,7 +137,7 @@ namespace DotSpatial.Symbology
         /// [Editor(typeof(LineSymbolizerEditor), typeof(UITypeEditor))]
         /// </remarks>
         [Category("Appearance")]
-        [Description("Gets or sets the set of characteristics that describe the selected features on this line layer.")]
+        [DisplayName("Ñ¡Ôñ·ûºÅ"), Description("Gets or sets the set of characteristics that describe the selected features on this line layer.")]
         [ShallowCopy]
         public new ILineSymbolizer SelectionSymbolizer
         {
@@ -161,7 +161,7 @@ namespace DotSpatial.Symbology
         /// </remarks>
         /// <exception cref="System.InvalidOperationException">Unable to assign a non-point symbolizer to a PointLayer</exception>
         [Category("Appearance")]
-        [Description("Gets or sets the set of characteristics that describe the un-selected features on this line layer.")]
+        [DisplayName("·ûºÅ"), Description("Gets or sets the set of characteristics that describe the un-selected features on this line layer.")]
         [ShallowCopy]
         public new ILineSymbolizer Symbolizer
         {
@@ -183,7 +183,7 @@ namespace DotSpatial.Symbology
         /// [Editor(typeof(LineSchemePropertyGridEditor), typeof(UITypeEditor))]
         /// </remarks>
         [Category("Appearance")]
-        [Description("Gets or sets the line scheme subdividing the layer into categories.")]
+        [DisplayName("·ûºÅÏµÍ³"), Description("Gets or sets the line scheme subdividing the layer into categories.")]
         [Serialize("Symbology")]
         public new ILineScheme Symbology
         {

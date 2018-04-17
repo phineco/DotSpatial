@@ -55,25 +55,25 @@ namespace DotSpatial.Symbology.Forms
             this._detailedPolygonSymbolControl1 = new DotSpatial.Symbology.Forms.DetailedPolygonSymbolControl();
             this._panel1.SuspendLayout();
             this.SuspendLayout();
-            //
+            // 
             // _panel1
-            //
+            // 
             this._panel1.Controls.Add(this._dialogButtons1);
             resources.ApplyResources(this._panel1, "_panel1");
             this._panel1.Name = "_panel1";
-            //
+            // 
             // _dialogButtons1
-            //
+            // 
             resources.ApplyResources(this._dialogButtons1, "_dialogButtons1");
             this._dialogButtons1.Name = "_dialogButtons1";
-            //
+            // 
             // _detailedPolygonSymbolControl1
-            //
+            // 
             resources.ApplyResources(this._detailedPolygonSymbolControl1, "_detailedPolygonSymbolControl1");
             this._detailedPolygonSymbolControl1.Name = "_detailedPolygonSymbolControl1";
-            //
+            // 
             // DetailedPolygonSymbolDialog
-            //
+            // 
             resources.ApplyResources(this, "$this");
             this.Controls.Add(this._detailedPolygonSymbolControl1);
             this.Controls.Add(this._panel1);
@@ -83,8 +83,10 @@ namespace DotSpatial.Symbology.Forms
             this.Name = "DetailedPolygonSymbolDialog";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.Load += new System.EventHandler(this.DetailedPolygonSymbolDialog_Load);
             this._panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -182,5 +184,10 @@ namespace DotSpatial.Symbology.Forms
         }
 
         #endregion
+
+        private void DetailedPolygonSymbolDialog_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

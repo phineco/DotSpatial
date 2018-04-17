@@ -1320,8 +1320,9 @@ namespace DotSpatial.Symbology
         /// <summary>
         ///  Gets or sets a string name for this layer.  This is not necessarily the same as the legend text.
         /// </summary>
-        [Category("General"),
-         Description("Gets or sets a string name for this layer.  This is not necessarily the same as the legend text."
+        //Gets or sets a string name for this layer.  This is not necessarily the same as the legend text.
+        [Category("常规"), DisplayName("名称"),
+         Description("获取或者设置图层名称，非必要设置"
              )]
         public virtual string Name
         {
@@ -1363,7 +1364,8 @@ namespace DotSpatial.Symbology
         /// Gets underlying dataset for this layer
         /// </summary>
         [TypeConverter(typeof(ExpandableObjectConverter))]
-        [Description("FeatureSet Properties")]
+        //FeatureSet Properties
+        [DisplayName("要素集"), Description("要素集属性")]
         public IFeatureSet FeatureSet
         {
             get
@@ -1419,7 +1421,8 @@ namespace DotSpatial.Symbology
         /// <summary>
         /// Gets the envelope of the DataSet supporting this FeatureLayer
         /// </summary>
-        [Category("General"), Description("Gets the envelope of the DataSet supporting this FeatureLayer")]
+        /// Gets the envelope of the DataSet supporting this FeatureLayer
+        [Category("常规"), DisplayName("范围"), Description("获取数据集外接矩形")]
         public override Extent Extent
         {
             get
@@ -1532,7 +1535,8 @@ namespace DotSpatial.Symbology
         /// <summary>
         /// Gets or sets whether labels should be drawn.
         /// </summary>
-        [Category("Behavior"), Description("Gets or sets whether labels should be drawn."), Serialize("ShowLabels")]
+        /// Gets or sets whether labels should be drawn.
+        [Category("Behavior"), DisplayName("是否显示标注"), Description("获取、设置是否显示标注"), Serialize("ShowLabels")]
         public virtual bool ShowLabels
         {
             get { return _showLabels; }

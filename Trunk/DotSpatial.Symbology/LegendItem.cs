@@ -426,7 +426,8 @@ namespace DotSpatial.Symbology
         /// Gets or sets the text for this category to appear in the legend.  This might be a category name,
         /// or a range of values.
         /// </summary>
-        [Description("Gets or sets the text for this category to appear in the legend.")]
+        /// Gets or sets the text for this category to appear in the legend.
+        [DisplayName("图层名"), Description("获取、设置目录上图层的名称")]
         [Serialize("LegendText")]
         public virtual string LegendText
         {

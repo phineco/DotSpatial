@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!--
-    Microsoft ResX Schema
-
+  <!-- 
+    Microsoft ResX Schema 
+    
     Version 2.0
-
-    The primary goals of this format is to allow a simple XML format
-    that is mostly human readable. The generation and parsing of the
-    various data types are done through the TypeConverter classes
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
     associated with the data types.
-
+    
     Example:
-
+    
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-
-    There are any number of "resheader" rows that contain simple
+                
+    There are any number of "resheader" rows that contain simple 
     name/value pairs.
-
-    Each data row contains a name, and value. The row also contains a
-    type or mimetype. Type corresponds to a .NET class that support
-    text/value conversion through the TypeConverter architecture.
-    Classes that don't support this are serialized and stored with the
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
     mimetype set.
-
-    The mimetype is used for serialized objects, and tells the
-    ResXResourceReader how to depersist the object. This is currently not
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
     extensible. For a given mimetype the value must be set accordingly:
-
-    Note - application/x-microsoft.net.object.binary.base64 is the format
-    that the ResXResourceWriter will generate, however the reader can
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
     read any of the formats listed below.
-
+    
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-
+    
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array
+    value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -112,23 +112,23 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnAddToCustom.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnAddToCustom.Location" type="System.Drawing.Point, System.Drawing">
     <value>372, 364</value>
   </data>
-  <metadata name="helpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="helpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnAddToCustom.ShowHelp" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -139,13 +139,13 @@
     <value>7</value>
   </data>
   <data name="btnAddToCustom.Text" xml:space="preserve">
-    <value>Add To Custom Patterns</value>
+    <value>保存自定义</value>
   </data>
   <data name="&gt;&gt;btnAddToCustom.Name" xml:space="preserve">
     <value>btnAddToCustom</value>
   </data>
   <data name="&gt;&gt;btnAddToCustom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnAddToCustom.Parent" xml:space="preserve">
     <value>$this</value>
@@ -184,7 +184,7 @@
     <value>True</value>
   </data>
   <data name="cmbUnits.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 21</value>
+    <value>76, 20</value>
   </data>
   <data name="cmbUnits.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -193,7 +193,7 @@
     <value>cmbUnits</value>
   </data>
   <data name="&gt;&gt;cmbUnits.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbUnits.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -211,19 +211,19 @@
     <value>True</value>
   </data>
   <data name="lblUnits.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 13</value>
+    <value>41, 12</value>
   </data>
   <data name="lblUnits.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="lblUnits.Text" xml:space="preserve">
-    <value>&amp;Units:</value>
+    <value>单位：</value>
   </data>
   <data name="&gt;&gt;lblUnits.Name" xml:space="preserve">
     <value>lblUnits</value>
   </data>
   <data name="&gt;&gt;lblUnits.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblUnits.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -241,19 +241,19 @@
     <value>True</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 13</value>
+    <value>41, 12</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Preview:</value>
+    <value>预览：</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
   </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -277,7 +277,7 @@
     <value>lblPreview</value>
   </data>
   <data name="&gt;&gt;lblPreview.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblPreview.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -295,19 +295,19 @@
     <value>True</value>
   </data>
   <data name="lblScaleMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 13</value>
+    <value>65, 12</value>
   </data>
   <data name="lblScaleMode.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="lblScaleMode.Text" xml:space="preserve">
-    <value>&amp;Scale Mode:</value>
+    <value>符号类型：</value>
   </data>
   <data name="&gt;&gt;lblScaleMode.Name" xml:space="preserve">
     <value>lblScaleMode</value>
   </data>
   <data name="&gt;&gt;lblScaleMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblScaleMode.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -316,13 +316,13 @@
     <value>4</value>
   </data>
   <data name="cmbScaleMode.Items" xml:space="preserve">
-    <value>Simple</value>
+    <value>简单符号</value>
   </data>
   <data name="cmbScaleMode.Items1" xml:space="preserve">
-    <value>Symbolic</value>
+    <value>标记符号</value>
   </data>
   <data name="cmbScaleMode.Items2" xml:space="preserve">
-    <value>Geographic</value>
+    <value>地理符号</value>
   </data>
   <data name="cmbScaleMode.Location" type="System.Drawing.Point, System.Drawing">
     <value>87, 24</value>
@@ -331,7 +331,7 @@
     <value>True</value>
   </data>
   <data name="cmbScaleMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 21</value>
+    <value>142, 20</value>
   </data>
   <data name="cmbScaleMode.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -340,7 +340,7 @@
     <value>cmbScaleMode</value>
   </data>
   <data name="&gt;&gt;cmbScaleMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbScaleMode.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -358,19 +358,19 @@
     <value>True</value>
   </data>
   <data name="chkSmoothing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 17</value>
+    <value>48, 16</value>
   </data>
   <data name="chkSmoothing.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="chkSmoothing.Text" xml:space="preserve">
-    <value>Smoothing</value>
+    <value>平滑</value>
   </data>
   <data name="&gt;&gt;chkSmoothing.Name" xml:space="preserve">
     <value>chkSmoothing</value>
   </data>
   <data name="&gt;&gt;chkSmoothing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chkSmoothing.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -391,13 +391,13 @@
     <value>1</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Symbolizer Characteristics</value>
+    <value>符号特征</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -415,19 +415,19 @@
     <value>True</value>
   </data>
   <data name="lblPatternType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 13</value>
+    <value>41, 12</value>
   </data>
   <data name="lblPatternType.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="lblPatternType.Text" xml:space="preserve">
-    <value>&amp;Pattern Type:</value>
+    <value>类型：</value>
   </data>
   <data name="&gt;&gt;lblPatternType.Name" xml:space="preserve">
     <value>lblPatternType</value>
   </data>
   <data name="&gt;&gt;lblPatternType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblPatternType.Parent" xml:space="preserve">
     <value>$this</value>
@@ -436,16 +436,16 @@
     <value>4</value>
   </data>
   <data name="cmbPatternType.Items" xml:space="preserve">
-    <value>Gradient</value>
+    <value>渐变填充</value>
   </data>
   <data name="cmbPatternType.Items1" xml:space="preserve">
-    <value>Picture</value>
+    <value>图片填充</value>
   </data>
   <data name="cmbPatternType.Items2" xml:space="preserve">
-    <value>Simple</value>
+    <value>简单填充</value>
   </data>
   <data name="cmbPatternType.Items3" xml:space="preserve">
-    <value>Hatch</value>
+    <value>线性填充</value>
   </data>
   <data name="cmbPatternType.Location" type="System.Drawing.Point, System.Drawing">
     <value>186, 97</value>
@@ -454,7 +454,7 @@
     <value>True</value>
   </data>
   <data name="cmbPatternType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 21</value>
+    <value>168, 20</value>
   </data>
   <data name="cmbPatternType.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -463,7 +463,7 @@
     <value>cmbPatternType</value>
   </data>
   <data name="&gt;&gt;cmbPatternType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbPatternType.Parent" xml:space="preserve">
     <value>$this</value>
@@ -484,19 +484,19 @@
     <value>True</value>
   </data>
   <data name="lblColorSimple.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 13</value>
+    <value>53, 12</value>
   </data>
   <data name="lblColorSimple.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="lblColorSimple.Text" xml:space="preserve">
-    <value>Fill Color:</value>
+    <value>填充色：</value>
   </data>
   <data name="&gt;&gt;lblColorSimple.Name" xml:space="preserve">
     <value>lblColorSimple</value>
   </data>
   <data name="&gt;&gt;lblColorSimple.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblColorSimple.Parent" xml:space="preserve">
     <value>tabSimple</value>
@@ -523,7 +523,7 @@
     <value>cbColorSimple</value>
   </data>
   <data name="&gt;&gt;cbColorSimple.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.ColorButton, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.ColorButton, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;cbColorSimple.Parent" xml:space="preserve">
     <value>tabSimple</value>
@@ -550,7 +550,7 @@
     <value>sldOpacitySimple</value>
   </data>
   <data name="&gt;&gt;sldOpacitySimple.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.RampSlider, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.RampSlider, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;sldOpacitySimple.Parent" xml:space="preserve">
     <value>tabSimple</value>
@@ -574,13 +574,13 @@
     <value>0</value>
   </data>
   <data name="tabSimple.Text" xml:space="preserve">
-    <value>Simple</value>
+    <value>简单</value>
   </data>
   <data name="&gt;&gt;tabSimple.Name" xml:space="preserve">
     <value>tabSimple</value>
   </data>
   <data name="&gt;&gt;tabSimple.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabSimple.Parent" xml:space="preserve">
     <value>tabPatternProperties</value>
@@ -607,7 +607,7 @@
     <value>dbxScaleY</value>
   </data>
   <data name="&gt;&gt;dbxScaleY.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.DoubleBox, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.DoubleBox, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;dbxScaleY.Parent" xml:space="preserve">
     <value>tabPicture</value>
@@ -634,7 +634,7 @@
     <value>dbxScaleX</value>
   </data>
   <data name="&gt;&gt;dbxScaleX.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.DoubleBox, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.DoubleBox, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;dbxScaleX.Parent" xml:space="preserve">
     <value>tabPicture</value>
@@ -661,7 +661,7 @@
     <value>angTileAngle</value>
   </data>
   <data name="&gt;&gt;angTileAngle.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.AngleControl, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.AngleControl, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;angTileAngle.Parent" xml:space="preserve">
     <value>tabPicture</value>
@@ -679,7 +679,7 @@
     <value>True</value>
   </data>
   <data name="lblTileMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 13</value>
+    <value>65, 12</value>
   </data>
   <data name="lblTileMode.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -691,7 +691,7 @@
     <value>lblTileMode</value>
   </data>
   <data name="&gt;&gt;lblTileMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblTileMode.Parent" xml:space="preserve">
     <value>tabPicture</value>
@@ -721,7 +721,7 @@
     <value>True</value>
   </data>
   <data name="cmbTileMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 21</value>
+    <value>113, 20</value>
   </data>
   <data name="cmbTileMode.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -730,7 +730,7 @@
     <value>cmbTileMode</value>
   </data>
   <data name="&gt;&gt;cmbTileMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbTileMode.Parent" xml:space="preserve">
     <value>tabPicture</value>
@@ -757,7 +757,7 @@
     <value>btnLoadImage</value>
   </data>
   <data name="&gt;&gt;btnLoadImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnLoadImage.Parent" xml:space="preserve">
     <value>tabPicture</value>
@@ -775,7 +775,7 @@
     <value>True</value>
   </data>
   <data name="txtImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 20</value>
+    <value>145, 21</value>
   </data>
   <data name="txtImage.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -784,7 +784,7 @@
     <value>txtImage</value>
   </data>
   <data name="&gt;&gt;txtImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtImage.Parent" xml:space="preserve">
     <value>tabPicture</value>
@@ -802,7 +802,7 @@
     <value>True</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 13</value>
+    <value>41, 12</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -814,7 +814,7 @@
     <value>label4</value>
   </data>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>tabPicture</value>
@@ -835,13 +835,13 @@
     <value>1</value>
   </data>
   <data name="tabPicture.Text" xml:space="preserve">
-    <value>Picture</value>
+    <value>图片</value>
   </data>
   <data name="&gt;&gt;tabPicture.Name" xml:space="preserve">
     <value>tabPicture</value>
   </data>
   <data name="&gt;&gt;tabPicture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabPicture.Parent" xml:space="preserve">
     <value>tabPatternProperties</value>
@@ -865,7 +865,7 @@
     <value>sliderGradient</value>
   </data>
   <data name="&gt;&gt;sliderGradient.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.GradientControl, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.GradientControl, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;sliderGradient.Parent" xml:space="preserve">
     <value>tabGradient</value>
@@ -889,7 +889,7 @@
     <value>True</value>
   </data>
   <data name="cmbGradientType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 21</value>
+    <value>205, 20</value>
   </data>
   <data name="cmbGradientType.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -898,7 +898,7 @@
     <value>cmbGradientType</value>
   </data>
   <data name="&gt;&gt;cmbGradientType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbGradientType.Parent" xml:space="preserve">
     <value>tabGradient</value>
@@ -916,7 +916,7 @@
     <value>True</value>
   </data>
   <data name="lblEndColor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 13</value>
+    <value>65, 12</value>
   </data>
   <data name="lblEndColor.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -928,7 +928,7 @@
     <value>lblEndColor</value>
   </data>
   <data name="&gt;&gt;lblEndColor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblEndColor.Parent" xml:space="preserve">
     <value>tabGradient</value>
@@ -946,7 +946,7 @@
     <value>True</value>
   </data>
   <data name="lblStartColor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 13</value>
+    <value>77, 12</value>
   </data>
   <data name="lblStartColor.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -958,7 +958,7 @@
     <value>lblStartColor</value>
   </data>
   <data name="&gt;&gt;lblStartColor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblStartColor.Parent" xml:space="preserve">
     <value>tabGradient</value>
@@ -985,7 +985,7 @@
     <value>angGradientAngle</value>
   </data>
   <data name="&gt;&gt;angGradientAngle.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.AngleControl, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.AngleControl, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;angGradientAngle.Parent" xml:space="preserve">
     <value>tabGradient</value>
@@ -1006,13 +1006,13 @@
     <value>2</value>
   </data>
   <data name="tabGradient.Text" xml:space="preserve">
-    <value>Gradient </value>
+    <value>渐变</value>
   </data>
   <data name="&gt;&gt;tabGradient.Name" xml:space="preserve">
     <value>tabGradient</value>
   </data>
   <data name="&gt;&gt;tabGradient.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabGradient.Parent" xml:space="preserve">
     <value>tabPatternProperties</value>
@@ -1030,7 +1030,7 @@
     <value>True</value>
   </data>
   <data name="lblHatchStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 13</value>
+    <value>77, 12</value>
   </data>
   <data name="lblHatchStyle.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1042,7 +1042,7 @@
     <value>lblHatchStyle</value>
   </data>
   <data name="&gt;&gt;lblHatchStyle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblHatchStyle.Parent" xml:space="preserve">
     <value>tabHatch</value>
@@ -1057,7 +1057,7 @@
     <value>True</value>
   </data>
   <data name="cmbHatchStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 21</value>
+    <value>135, 20</value>
   </data>
   <data name="cmbHatchStyle.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1066,7 +1066,7 @@
     <value>cmbHatchStyle</value>
   </data>
   <data name="&gt;&gt;cmbHatchStyle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmbHatchStyle.Parent" xml:space="preserve">
     <value>tabHatch</value>
@@ -1084,7 +1084,7 @@
     <value>True</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 13</value>
+    <value>107, 12</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1096,7 +1096,7 @@
     <value>label2</value>
   </data>
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>tabHatch</value>
@@ -1123,7 +1123,7 @@
     <value>hatchBackOpacity</value>
   </data>
   <data name="&gt;&gt;hatchBackOpacity.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.RampSlider, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.RampSlider, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;hatchBackOpacity.Parent" xml:space="preserve">
     <value>tabHatch</value>
@@ -1150,7 +1150,7 @@
     <value>hatchBackColor</value>
   </data>
   <data name="&gt;&gt;hatchBackColor.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.ColorButton, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.ColorButton, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;hatchBackColor.Parent" xml:space="preserve">
     <value>tabHatch</value>
@@ -1168,7 +1168,7 @@
     <value>True</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 13</value>
+    <value>107, 12</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1180,7 +1180,7 @@
     <value>label1</value>
   </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>tabHatch</value>
@@ -1207,7 +1207,7 @@
     <value>hatchForeOpacity</value>
   </data>
   <data name="&gt;&gt;hatchForeOpacity.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.RampSlider, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.RampSlider, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;hatchForeOpacity.Parent" xml:space="preserve">
     <value>tabHatch</value>
@@ -1231,7 +1231,7 @@
     <value>hatchForeColor</value>
   </data>
   <data name="&gt;&gt;hatchForeColor.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.ColorButton, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.ColorButton, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;hatchForeColor.Parent" xml:space="preserve">
     <value>tabHatch</value>
@@ -1252,13 +1252,13 @@
     <value>3</value>
   </data>
   <data name="tabHatch.Text" xml:space="preserve">
-    <value>Hatch</value>
+    <value>线性</value>
   </data>
   <data name="&gt;&gt;tabHatch.Name" xml:space="preserve">
     <value>tabHatch</value>
   </data>
   <data name="&gt;&gt;tabHatch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabHatch.Parent" xml:space="preserve">
     <value>tabPatternProperties</value>
@@ -1282,7 +1282,7 @@
     <value>tabPatternProperties</value>
   </data>
   <data name="&gt;&gt;tabPatternProperties.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabPatternProperties.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1309,7 +1309,7 @@
     <value>ocOutline</value>
   </data>
   <data name="&gt;&gt;ocOutline.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.OutlineControl, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.OutlineControl, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;ocOutline.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1336,7 +1336,7 @@
     <value>ccPatterns</value>
   </data>
   <data name="&gt;&gt;ccPatterns.Type" xml:space="preserve">
-    <value>DotSpatial.Symbology.Forms.PatternCollectionControl, DotSpatial.Symbology.Forms, Version=1.0.0.1901, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
+    <value>DotSpatial.Symbology.Forms.PatternCollectionControl, DotSpatial.Symbology.Forms, Version=1.6.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382</value>
   </data>
   <data name="&gt;&gt;ccPatterns.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1344,7 +1344,7 @@
   <data name="&gt;&gt;ccPatterns.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
@@ -1357,12 +1357,12 @@
     <value>helpProvider1</value>
   </data>
   <data name="&gt;&gt;helpProvider1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>DetailedPolygonSymbolControl</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

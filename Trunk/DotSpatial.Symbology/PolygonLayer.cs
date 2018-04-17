@@ -110,7 +110,8 @@ namespace DotSpatial.Symbology
         /// [Editor(typeof(PolygonSymbolizerEditor), typeof(UITypeEditor))]
         /// </remarks>
         [Category("Appearance")]
-        [Description("Gets or sets the symbolic characteristics for the regular polygons in this layer or symbol class")]
+        //Gets or sets the symbolic characteristics for the regular polygons in this layer or symbol class
+        [Description("获取、设置图层的符号特征或者符号类型"), DisplayName("选择符号")]
         [ShallowCopy]
         public new IPolygonSymbolizer SelectionSymbolizer
         {
@@ -134,7 +135,8 @@ namespace DotSpatial.Symbology
         /// [Editor(typeof(PolygonSymbolizerEditor), typeof(UITypeEditor))]
         /// </remarks>
         [Category("Appearance")]
-        [Description("Gets or sets the symbolic characteristics for the regular polygons in this layer or symbol class")]
+        //Gets or sets the symbolic characteristics for the regular polygons in this layer or symbol class
+        [DisplayName("符号"), Description("获取、设置用于表示图层的整体符号表示")]
         [ShallowCopy]
         public new IPolygonSymbolizer Symbolizer
         {
@@ -156,7 +158,8 @@ namespace DotSpatial.Symbology
         /// [Editor(typeof(PolygonSchemePropertyGridEditor), typeof(UITypeEditor))]
         /// </remarks>
         [Category("Appearance")]
-        [Description("Gets or sets the entire scheme to use for symbolizing this polygon layer.")]
+        //Gets or sets the entire scheme to use for symbolizing this polygon layer.
+        [DisplayName("符号系统"), Description("获取、设置用于表示面图层的整体符号表示")]
         [Serialize("Symbology")]
         public new IPolygonScheme Symbology
         {
