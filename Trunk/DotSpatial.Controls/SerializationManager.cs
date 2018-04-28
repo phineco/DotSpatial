@@ -17,6 +17,7 @@ using DotSpatial.Data.Properties;
 using DotSpatial.Extensions;
 using DotSpatial.Serialization;
 using DotSpatial.Symbology;
+using System.Windows.Forms;
 
 namespace DotSpatial.Controls
 {
@@ -209,6 +210,15 @@ namespace DotSpatial.Controls
             return graph;
         }
 
+        public void OpenRecentProject()
+        {
+            //MessageBox.Show(Settings.Default.FileName);
+            if (!string.IsNullOrEmpty(Settings.Default.FileName))
+            {
+                OpenProject(Settings.Default.FileName);
+            }
+        }
+
         private static void AddFileToRecentFiles(string fileName)
         {
             if (Settings.Default.RecentFiles.Contains(fileName))
@@ -221,7 +231,7 @@ namespace DotSpatial.Controls
 
             // insert value at the top of the list
             Settings.Default.RecentFiles.Insert(0, fileName);
-
+            Settings.Default["FileName"] = fileName;
             Settings.Default.Save();
         }
 

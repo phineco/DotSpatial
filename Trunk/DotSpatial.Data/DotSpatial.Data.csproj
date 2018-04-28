@@ -159,6 +159,7 @@
     <Compile Include="RasterBoundDataSet.cs" />
     <Compile Include="RasterEventArgs.cs" />
     <Compile Include="RowEditEvent.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="ShapeFactory.cs" />
     <Compile Include="ShapefileFeatureSource.cs" />
     <Compile Include="ShapefileFeatureSourceQuadtree.cs" />
