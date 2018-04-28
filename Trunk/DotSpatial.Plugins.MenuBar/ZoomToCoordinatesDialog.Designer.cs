@@ -46,9 +46,7 @@
             this.latStatus2 = new System.Windows.Forms.Label();
             this.lonStatus2 = new System.Windows.Forms.Label();
             this.tbBW2 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
             this.tbDJ2 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -56,9 +54,7 @@
             this.lonStatus3 = new System.Windows.Forms.Label();
             this.latStatus3 = new System.Windows.Forms.Label();
             this.tbBW3 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
             this.tbDJ3 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -94,7 +90,7 @@
             this.tabControl1.Controls.Add(this.tbXian);
             this.tabControl1.Controls.Add(this.tbSZ);
             this.tabControl1.Location = new System.Drawing.Point(9, 9);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(333, 195);
@@ -112,9 +108,9 @@
             this.tbWGS.Controls.Add(this.label7);
             this.tbWGS.Controls.Add(this.label6);
             this.tbWGS.Location = new System.Drawing.Point(4, 22);
-            this.tbWGS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbWGS.Margin = new System.Windows.Forms.Padding(2);
             this.tbWGS.Name = "tbWGS";
-            this.tbWGS.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbWGS.Padding = new System.Windows.Forms.Padding(2);
             this.tbWGS.Size = new System.Drawing.Size(325, 169);
             this.tbWGS.TabIndex = 0;
             this.tbWGS.Text = "WGS1984 坐标系";
@@ -202,16 +198,14 @@
             this.tbXian.Controls.Add(this.latStatus2);
             this.tbXian.Controls.Add(this.lonStatus2);
             this.tbXian.Controls.Add(this.tbBW2);
-            this.tbXian.Controls.Add(this.label12);
             this.tbXian.Controls.Add(this.tbDJ2);
-            this.tbXian.Controls.Add(this.label13);
             this.tbXian.Controls.Add(this.label14);
             this.tbXian.Controls.Add(this.label15);
             this.tbXian.Controls.Add(this.label16);
             this.tbXian.Location = new System.Drawing.Point(4, 22);
-            this.tbXian.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbXian.Margin = new System.Windows.Forms.Padding(2);
             this.tbXian.Name = "tbXian";
-            this.tbXian.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbXian.Padding = new System.Windows.Forms.Padding(2);
             this.tbXian.Size = new System.Drawing.Size(325, 169);
             this.tbXian.TabIndex = 1;
             this.tbXian.Text = "Xian1980 坐标系";
@@ -243,30 +237,12 @@
             this.tbBW2.Size = new System.Drawing.Size(141, 21);
             this.tbBW2.TabIndex = 40;
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(229, 118);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(17, 12);
-            this.label12.TabIndex = 41;
-            this.label12.Text = "°";
-            // 
             // tbDJ2
             // 
             this.tbDJ2.Location = new System.Drawing.Point(86, 68);
             this.tbDJ2.Name = "tbDJ2";
             this.tbDJ2.Size = new System.Drawing.Size(141, 21);
             this.tbDJ2.TabIndex = 35;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(229, 64);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(17, 12);
-            this.label13.TabIndex = 37;
-            this.label13.Text = "°";
             // 
             // label14
             // 
@@ -300,16 +276,14 @@
             this.tbSZ.Controls.Add(this.lonStatus3);
             this.tbSZ.Controls.Add(this.latStatus3);
             this.tbSZ.Controls.Add(this.tbBW3);
-            this.tbSZ.Controls.Add(this.label17);
             this.tbSZ.Controls.Add(this.tbDJ3);
-            this.tbSZ.Controls.Add(this.label18);
             this.tbSZ.Controls.Add(this.label19);
             this.tbSZ.Controls.Add(this.label20);
             this.tbSZ.Controls.Add(this.label21);
             this.tbSZ.Location = new System.Drawing.Point(4, 22);
-            this.tbSZ.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbSZ.Margin = new System.Windows.Forms.Padding(2);
             this.tbSZ.Name = "tbSZ";
-            this.tbSZ.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbSZ.Padding = new System.Windows.Forms.Padding(2);
             this.tbSZ.Size = new System.Drawing.Size(325, 169);
             this.tbSZ.TabIndex = 2;
             this.tbSZ.Text = "深圳坐标系";
@@ -340,30 +314,12 @@
             this.tbBW3.Size = new System.Drawing.Size(141, 21);
             this.tbBW3.TabIndex = 40;
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(229, 118);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(17, 12);
-            this.label17.TabIndex = 41;
-            this.label17.Text = "°";
-            // 
             // tbDJ3
             // 
             this.tbDJ3.Location = new System.Drawing.Point(86, 68);
             this.tbDJ3.Name = "tbDJ3";
             this.tbDJ3.Size = new System.Drawing.Size(141, 21);
             this.tbDJ3.TabIndex = 35;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(229, 64);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(17, 12);
-            this.label18.TabIndex = 37;
-            this.label18.Text = "°";
             // 
             // label19
             // 
@@ -436,16 +392,12 @@
         private System.Windows.Forms.TextBox tbDJ1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox tbBW2;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox tbDJ2;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox tbBW3;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox tbDJ3;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
