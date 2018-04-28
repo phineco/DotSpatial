@@ -304,8 +304,11 @@
         AH//AAD//4AB///AA///4Af///AP///4H/8=
 </value>
   </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Identify</value>
+    <value>识别</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FeatureIdentifier</value>

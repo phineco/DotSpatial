@@ -1465,7 +1465,7 @@ namespace DotSpatial.Controls {
         }
         
         /// <summary>
-        ///   查找类似 Map Layers 的本地化字符串。
+        ///   查找类似 地图图层 的本地化字符串。
         /// </summary>
         internal static string MapLayers {
             get {
