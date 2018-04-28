@@ -316,13 +316,13 @@
     <value>4</value>
   </data>
   <data name="cmbScaleMode.Items" xml:space="preserve">
-    <value>简单符号</value>
+    <value>Simple</value>
   </data>
   <data name="cmbScaleMode.Items1" xml:space="preserve">
-    <value>标记符号</value>
+    <value>Symbolic</value>
   </data>
   <data name="cmbScaleMode.Items2" xml:space="preserve">
-    <value>地理符号</value>
+    <value>Geographic</value>
   </data>
   <data name="cmbScaleMode.Location" type="System.Drawing.Point, System.Drawing">
     <value>87, 24</value>
